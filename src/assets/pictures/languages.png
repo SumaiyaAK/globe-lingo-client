@@ -1,0 +1,1136 @@
+<!DOCTYPE html>
+<html lang="en" class="webp">
+<head>
+	<meta charset="utf-8">
+	<link rel="preconnect" href="https://cdn.vectorstock.com">
+	<link rel="preconnect" href="https://www.googletagmanager.com">
+	<link rel="preconnect" href="https://www.google-analytics.com">
+	<meta name="theme-color" content="#101122">
+	<script type="text/javascript" nonce="wkKOgWf+O/7MeY0DPb3W24AVi6p+2n7cdwjGCwY8iAM=">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"02e09611df",applicationID:"156179534"};;(()=>{"use strict";var e,t,r={8768:(e,t,r)=>{r.d(t,{T:()=>n,p:()=>i});const n=/(iPad|iPhone|iPod)/g.test(navigator.userAgent),i=n&&Boolean("undefined"==typeof SharedWorker)},880:(e,t,r)=>{r.d(t,{P_:()=>f,Mt:()=>p,C5:()=>s,DL:()=>m,OP:()=>k,lF:()=>j,Yu:()=>y,Dg:()=>g,CX:()=>c,GE:()=>b,sU:()=>_});var n=r(6797),i=r(4286);const o={beacon:n.ce.beacon,errorBeacon:n.ce.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0},a={};function s(e){if(!e)throw new Error("All info objects require an agent identifier!");if(!a[e])throw new Error("Info for ".concat(e," was never set"));return a[e]}function c(e,t){if(!e)throw new Error("All info objects require an agent identifier!");a[e]=(0,i.D)(t,o),(0,n.Qy)(e,a[e],"info")}var u=r(2797);const d=()=>{const e={blockSelector:"[data-nr-block]",maskInputOptions:{password:!0}};return{allow_bfcache:!0,privacy:{cookies_enabled:!0},ajax:{deny_list:void 0,enabled:!0,harvestTimeSeconds:10},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},session:{domain:void 0,expiresMs:u.oD,inactiveMs:u.Hb},ssl:void 0,obfuscate:void 0,jserrors:{enabled:!0,harvestTimeSeconds:10},metrics:{enabled:!0},page_action:{enabled:!0,harvestTimeSeconds:30},page_view_event:{enabled:!0},page_view_timing:{enabled:!0,harvestTimeSeconds:30,long_task:!1},session_trace:{enabled:!0,harvestTimeSeconds:10},session_replay:{enabled:!1,harvestTimeSeconds:60,sampleRate:.1,errorSampleRate:.1,maskTextSelector:"*",maskAllInputs:!0,get blockClass(){return"nr-block"},get ignoreClass(){return"nr-ignore"},get maskTextClass(){return"nr-mask"},get blockSelector(){return e.blockSelector},set blockSelector(t){e.blockSelector+=",".concat(t)},get maskInputOptions(){return e.maskInputOptions},set maskInputOptions(t){e.maskInputOptions={...t,password:!0}}},spa:{enabled:!0,harvestTimeSeconds:10}}},l={};function f(e){if(!e)throw new Error("All configuration objects require an agent identifier!");if(!l[e])throw new Error("Configuration for ".concat(e," was never set"));return l[e]}function g(e,t){if(!e)throw new Error("All configuration objects require an agent identifier!");l[e]=(0,i.D)(t,d()),(0,n.Qy)(e,l[e],"config")}function p(e,t){if(!e)throw new Error("All configuration objects require an agent identifier!");var r=f(e);if(r){for(var n=t.split("."),i=0;i<n.length-1;i++)if("object"!=typeof(r=r[n[i]]))return;r=r[n[n.length-1]]}return r}const v={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0},h={};function m(e){if(!e)throw new Error("All loader-config objects require an agent identifier!");if(!h[e])throw new Error("LoaderConfig for ".concat(e," was never set"));return h[e]}function b(e,t){if(!e)throw new Error("All loader-config objects require an agent identifier!");h[e]=(0,i.D)(t,v),(0,n.Qy)(e,h[e],"loader_config")}const y=(0,n.mF)().o;var w=r(2374),A=r(1651);const x={buildEnv:A.Re,bytesSent:{},queryBytesSent:{},customTransaction:void 0,disabled:!1,distMethod:A.gF,isolatedBacklog:!1,loaderType:void 0,maxBytes:3e4,offset:Math.floor(w._A?.performance?.timeOrigin||w._A?.performance?.timing?.navigationStart||Date.now()),onerror:void 0,origin:""+w._A.location,ptid:void 0,releaseIds:{},session:void 0,xhrWrappable:"function"==typeof w._A.XMLHttpRequest?.prototype?.addEventListener,version:A.q4},D={};function k(e){if(!e)throw new Error("All runtime objects require an agent identifier!");if(!D[e])throw new Error("Runtime for ".concat(e," was never set"));return D[e]}function _(e,t){if(!e)throw new Error("All runtime objects require an agent identifier!");D[e]=(0,i.D)(t,x),(0,n.Qy)(e,D[e],"runtime")}function j(e){return function(e){try{const t=s(e);return!!t.licenseKey&&!!t.errorBeacon&&!!t.applicationID}catch(e){return!1}}(e)}},4286:(e,t,r)=>{r.d(t,{D:()=>i});var n=r(8610);function i(e,t){try{if(!e||"object"!=typeof e)return(0,n.Z)("Setting a Configurable requires an object as input");if(!t||"object"!=typeof t)return(0,n.Z)("Setting a Configurable requires a model to set its initial properties");const r=Object.create(Object.getPrototypeOf(t),Object.getOwnPropertyDescriptors(t)),o=0===Object.keys(r).length?e:r;for(let a in o)if(void 0!==e[a])try{"object"==typeof e[a]&&"object"==typeof t[a]?r[a]=i(e[a],t[a]):r[a]=e[a]}catch(e){(0,n.Z)("An error occurred while setting a property of a Configurable",e)}return r}catch(e){(0,n.Z)("An error occured while setting a Configurable",e)}}},1651:(e,t,r)=>{r.d(t,{Re:()=>i,gF:()=>o,q4:()=>n});const n="1.233.1",i="PROD",o="CDN"},9557:(e,t,r)=>{r.d(t,{w:()=>o});var n=r(8610);const i={agentIdentifier:"",ee:void 0};class o{constructor(e){try{if("object"!=typeof e)return(0,n.Z)("shared context requires an object as input");this.sharedContext={},Object.assign(this.sharedContext,i),Object.entries(e).forEach((e=>{let[t,r]=e;Object.keys(i).includes(t)&&(this.sharedContext[t]=r)}))}catch(e){(0,n.Z)("An error occured while setting SharedContext",e)}}}},4329:(e,t,r)=>{r.d(t,{L:()=>d,R:()=>c});var n=r(3752),i=r(7022),o=r(4045),a=r(2325);const s={};function c(e,t){const r={staged:!1,priority:a.p[t]||0};u(e),s[e].get(t)||s[e].set(t,r)}function u(e){e&&(s[e]||(s[e]=new Map))}function d(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"",t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:"feature";if(u(e),!e||!s[e].get(t))return a(t);s[e].get(t).staged=!0;const r=[...s[e]];function a(t){const r=e?n.ee.get(e):n.ee,a=o.X.handlers;if(r.backlog&&a){var s=r.backlog[t],c=a[t];if(c){for(var u=0;s&&u<s.length;++u)l(s[u],c);(0,i.D)(c,(function(e,t){(0,i.D)(t,(function(t,r){r[0].on(e,r[1])}))}))}delete a[t],r.backlog[t]=null,r.emit("drain-"+t,[])}}r.every((e=>{let[t,r]=e;return r.staged}))&&(r.sort(((e,t)=>e[1].priority-t[1].priority)),r.forEach((e=>{let[t]=e;a(t)})))}function l(e,t){var r=e[1];(0,i.D)(t[r],(function(t,r){var n=e[0];if(r[0]===n){var i=r[1],o=e[3],a=e[2];i.apply(o,a)}}))}},3752:(e,t,r)=>{r.d(t,{ee:()=>u});var n=r(6797),i=r(3916),o=r(7022),a=r(880),s="nr@context";let c=(0,n.fP)();var u;function d(){}function l(){return new d}function f(){u.aborted=!0,u.backlog={}}c.ee?u=c.ee:(u=function e(t,r){var n={},c={},g={},p=!1;try{p=16===r.length&&(0,a.OP)(r).isolatedBacklog}catch(e){}var v={on:b,addEventListener:b,removeEventListener:y,emit:m,get:A,listeners:w,context:h,buffer:x,abort:f,aborted:!1,isBuffering:D,debugId:r,backlog:p?{}:t&&"object"==typeof t.backlog?t.backlog:{}};return v;function h(e){return e&&e instanceof d?e:e?(0,i.X)(e,s,l):l()}function m(e,r,n,i,o){if(!1!==o&&(o=!0),!u.aborted||i){t&&o&&t.emit(e,r,n);for(var a=h(n),s=w(e),d=s.length,l=0;l<d;l++)s[l].apply(a,r);var f=k()[c[e]];return f&&f.push([v,e,r,a]),a}}function b(e,t){n[e]=w(e).concat(t)}function y(e,t){var r=n[e];if(r)for(var i=0;i<r.length;i++)r[i]===t&&r.splice(i,1)}function w(e){return n[e]||[]}function A(t){return g[t]=g[t]||e(v,t)}function x(e,t){var r=k();v.aborted||(0,o.D)(e,(function(e,n){t=t||"feature",c[n]=t,t in r||(r[t]=[])}))}function D(e){return!!k()[c[e]]}function k(){return v.backlog}}(void 0,"globalEE"),c.ee=u)},9252:(e,t,r)=>{r.d(t,{E:()=>n,p:()=>i});var n=r(3752).ee.get("handle");function i(e,t,r,i,o){o?(o.buffer([e],i),o.emit(e,t,r)):(n.buffer([e],i),n.emit(e,t,r))}},4045:(e,t,r)=>{r.d(t,{X:()=>o});var n=r(9252);o.on=a;var i=o.handlers={};function o(e,t,r,o){a(o||n.E,i,e,t,r)}function a(e,t,r,i,o){o||(o="feature"),e||(e=n.E);var a=t[o]=t[o]||{};(a[r]=a[r]||[]).push([e,i])}},8544:(e,t,r)=>{r.d(t,{bP:()=>s,iz:()=>c,m$:()=>a});var n=r(2374);let i=!1,o=!1;try{const e={get passive(){return i=!0,!1},get signal(){return o=!0,!1}};n._A.addEventListener("test",null,e),n._A.removeEventListener("test",null,e)}catch(e){}function a(e,t){return i||o?{capture:!!e,passive:i,signal:t}:!!e}function s(e,t){let r=arguments.length>2&&void 0!==arguments[2]&&arguments[2],n=arguments.length>3?arguments[3]:void 0;window.addEventListener(e,t,a(r,n))}function c(e,t){let r=arguments.length>2&&void 0!==arguments[2]&&arguments[2],n=arguments.length>3?arguments[3]:void 0;document.addEventListener(e,t,a(r,n))}},5526:(e,t,r)=>{r.d(t,{Rl:()=>a,ky:()=>s});var n=r(2374);const i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx";function o(e,t){return e?15&e[t]:16*Math.random()|0}function a(){const e=n._A?.crypto||n._A?.msCrypto;let t,r=0;return e&&e.getRandomValues&&(t=e.getRandomValues(new Uint8Array(31))),i.split("").map((e=>"x"===e?o(t,++r).toString(16):"y"===e?(3&o()|8).toString(16):e)).join("")}function s(e){const t=n._A?.crypto||n._A?.msCrypto;let r,i=0;t&&t.getRandomValues&&(r=t.getRandomValues(new Uint8Array(31)));const a=[];for(var s=0;s<e;s++)a.push(o(r,++i).toString(16));return a.join("")}},2797:(e,t,r)=>{r.d(t,{Bq:()=>n,Hb:()=>o,oD:()=>i});const n="NRBA",i=144e5,o=18e5},2053:(e,t,r)=>{function n(){return Math.round(performance.now())}r.d(t,{z:()=>n})},8610:(e,t,r)=>{function n(e,t){"function"==typeof console.warn&&(console.warn("New Relic: ".concat(e)),t&&console.warn(t))}r.d(t,{Z:()=>n})},3916:(e,t,r)=>{r.d(t,{X:()=>i});var n=Object.prototype.hasOwnProperty;function i(e,t,r){if(n.call(e,t))return e[t];var i=r();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}},2374:(e,t,r)=>{r.d(t,{FN:()=>a,_A:()=>o,il:()=>n,v6:()=>i});const n=Boolean("undefined"!=typeof window&&window.document),i=Boolean("undefined"!=typeof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator);let o=(()=>{if(n)return window;if(i){if("undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope)return globalThis;if(self instanceof WorkerGlobalScope)return self}throw new Error('New Relic browser agent shutting down due to error: Unable to locate global scope. This is possibly due to code redefining browser global variables like "self" and "window".')})();const a=""+o.location},7022:(e,t,r)=>{r.d(t,{D:()=>n});const n=(e,t)=>Object.entries(e||{}).map((e=>{let[r,n]=e;return t(r,n)}))},2438:(e,t,r)=>{r.d(t,{P:()=>o});var n=r(3752);const i=()=>{const e=new WeakSet;return(t,r)=>{if("object"==typeof r&&null!==r){if(e.has(r))return;e.add(r)}return r}};function o(e){try{return JSON.stringify(e,i())}catch(e){try{n.ee.emit("internal-error",[e])}catch(e){}}}},2650:(e,t,r)=>{r.d(t,{K:()=>a,b:()=>o});var n=r(8544);function i(){return"undefined"==typeof document||"complete"===document.readyState}function o(e,t){if(i())return e();(0,n.bP)("load",e,t)}function a(e){if(i())return e();(0,n.iz)("DOMContentLoaded",e)}},6797:(e,t,r)=>{r.d(t,{EZ:()=>u,Qy:()=>c,ce:()=>o,fP:()=>a,gG:()=>d,mF:()=>s});var n=r(2053),i=r(2374);const o={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function a(){return i._A.NREUM||(i._A.NREUM={}),void 0===i._A.newrelic&&(i._A.newrelic=i._A.NREUM),i._A.NREUM}function s(){let e=a();return e.o||(e.o={ST:i._A.setTimeout,SI:i._A.setImmediate,CT:i._A.clearTimeout,XHR:i._A.XMLHttpRequest,REQ:i._A.Request,EV:i._A.Event,PR:i._A.Promise,MO:i._A.MutationObserver,FETCH:i._A.fetch}),e}function c(e,t,r){let i=a();const o=i.initializedAgents||{},s=o[e]||{};return Object.keys(s).length||(s.initializedAt={ms:(0,n.z)(),date:new Date}),i.initializedAgents={...o,[e]:{...s,[r]:t}},i}function u(e,t){a()[e]=t}function d(){return function(){let e=a();const t=e.info||{};e.info={beacon:o.beacon,errorBeacon:o.errorBeacon,...t}}(),function(){let e=a();const t=e.init||{};e.init={...t}}(),s(),function(){let e=a();const t=e.loader_config||{};e.loader_config={...t}}(),a()}},6998:(e,t,r)=>{r.d(t,{N:()=>i});var n=r(8544);function i(e){let t=arguments.length>1&&void 0!==arguments[1]&&arguments[1],r=arguments.length>2?arguments[2]:void 0,i=arguments.length>3?arguments[3]:void 0;return void(0,n.iz)("visibilitychange",(function(){if(t)return void("hidden"==document.visibilityState&&e());e(document.visibilityState)}),r,i)}},6034:(e,t,r)=>{r.d(t,{gF:()=>o,mY:()=>i,t9:()=>n,vz:()=>s,xS:()=>a});const n=r(2325).D.metrics,i="sm",o="cm",a="storeSupportabilityMetrics",s="storeEventMetrics"},2484:(e,t,r)=>{r.d(t,{Dz:()=>i,OJ:()=>a,qw:()=>o,t9:()=>n});const n=r(2325).D.pageViewEvent,i="firstbyte",o="domcontent",a="windowload"},6382:(e,t,r)=>{r.d(t,{t:()=>n});const n=r(2325).D.pageViewTiming},1509:(e,t,r)=>{r.d(t,{W:()=>o});var n=r(880),i=r(3752);class o{constructor(e,t,r){this.agentIdentifier=e,this.aggregator=t,this.ee=i.ee.get(e,(0,n.OP)(this.agentIdentifier).isolatedBacklog),this.featureName=r,this.blocked=!1}}},2384:(e,t,r)=>{r.d(t,{j:()=>b});var n=r(2325),i=r(880),o=r(9252),a=r(3752),s=r(2053),c=r(4329),u=r(2650),d=r(2374),l=r(8610),f=r(6034),g=r(6797);function p(){const e=(0,g.gG)();["setErrorHandler","finished","addToTrace","inlineHit","addRelease","addPageAction","setCurrentRouteName","setPageViewName","setCustomAttribute","interaction","noticeError","setUserId"].forEach((t=>{e[t]=function(){for(var r=arguments.length,n=new Array(r),i=0;i<r;i++)n[i]=arguments[i];return function(t){for(var r=arguments.length,n=new Array(r>1?r-1:0),i=1;i<r;i++)n[i-1]=arguments[i];let o=[];return Object.values(e.initializedAgents).forEach((e=>{e.exposed&&e.api[t]&&o.push(e.api[t](...n))})),o.length>1?o:o[0]}(t,...n)}}))}var v=r(7022);const h={stn:[n.D.sessionTrace],err:[n.D.jserrors,n.D.metrics],ins:[n.D.pageAction],spa:[n.D.spa],sr:[n.D.sessionReplay]};const m={};function b(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{},b=arguments.length>2?arguments[2]:void 0,y=arguments.length>3?arguments[3]:void 0,{init:w,info:A,loader_config:x,runtime:D={loaderType:b},exposed:k=!0}=t;const _=(0,g.gG)();A||(w=_.init,A=_.info,x=_.loader_config),(0,i.Dg)(e,w||{}),(0,i.GE)(e,x||{}),(0,i.sU)(e,D),A.jsAttributes??={},d.v6&&(A.jsAttributes.isWorker=!0),(0,i.CX)(e,A),p();const j=function(e,t){t||(0,c.R)(e,"api");const g={};var p=a.ee.get(e),v=p.get("tracer"),h="api-",m=h+"ixn-";function b(t,r,n,o){const a=(0,i.C5)(e);return null===r?delete a.jsAttributes[t]:(0,i.CX)(e,{...a,jsAttributes:{...a.jsAttributes,[t]:r}}),A(h,n,!0,o||null===r?"session":void 0)(t,r)}function y(){}["setErrorHandler","finished","addToTrace","inlineHit","addRelease"].forEach((e=>g[e]=A(h,e,!0,"api"))),g.addPageAction=A(h,"addPageAction",!0,n.D.pageAction),g.setCurrentRouteName=A(h,"routeName",!0,n.D.spa),g.setPageViewName=function(t,r){if("string"==typeof t)return"/"!==t.charAt(0)&&(t="/"+t),(0,i.OP)(e).customTransaction=(r||"http://custom.transaction")+t,A(h,"setPageViewName",!0)()},g.setCustomAttribute=function(e,t){let r=arguments.length>2&&void 0!==arguments[2]&&arguments[2];if("string"==typeof e){if(["string","number"].includes(typeof t)||null===t)return b(e,t,"setCustomAttribute",r);(0,l.Z)("Failed to execute setCustomAttribute.\nNon-null value must be a string or number type, but a type of <".concat(typeof t,"> was provided."))}else(0,l.Z)("Failed to execute setCustomAttribute.\nName must be a string type, but a type of <".concat(typeof e,"> was provided."))},g.setUserId=function(e){if("string"==typeof e||null===e)return b("enduser.id",e,"setUserId",!0);(0,l.Z)("Failed to execute setUserId.\nNon-null value must be a string type, but a type of <".concat(typeof e,"> was provided."))},g.interaction=function(){return(new y).get()};var w=y.prototype={createTracer:function(e,t){var r={},i=this,a="function"==typeof t;return(0,o.p)(m+"tracer",[(0,s.z)(),e,r],i,n.D.spa,p),function(){if(v.emit((a?"":"no-")+"fn-start",[(0,s.z)(),i,a],r),a)try{return t.apply(this,arguments)}catch(e){throw v.emit("fn-err",[arguments,this,"string"==typeof e?new Error(e):e],r),e}finally{v.emit("fn-end",[(0,s.z)()],r)}}}};function A(e,t,r,i){return function(){return(0,o.p)(f.xS,["API/"+t+"/called"],void 0,n.D.metrics,p),i&&(0,o.p)(e+t,[(0,s.z)(),...arguments],r?null:this,i,p),r?void 0:this}}function x(){r.e(439).then(r.bind(r,5692)).then((t=>{let{setAPI:r}=t;r(e),(0,c.L)(e,"api")})).catch((()=>(0,l.Z)("Downloading runtime APIs failed...")))}return["actionText","setName","setAttribute","save","ignore","onEnd","getContext","end","get"].forEach((e=>{w[e]=A(m,e,void 0,n.D.spa)})),g.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),(0,o.p)(f.xS,["API/noticeError/called"],void 0,n.D.metrics,p),(0,o.p)("err",[e,(0,s.z)(),!1,t],void 0,n.D.jserrors,p)},d.v6?x():(0,u.b)((()=>x()),!0),g}(e,y);return(0,g.Qy)(e,j,"api"),(0,g.Qy)(e,k,"exposed"),(0,g.EZ)("activatedFeatures",m),(0,g.EZ)("setToken",(t=>function(e,t){var r=a.ee.get(t);e&&"object"==typeof e&&((0,v.D)(e,(function(e,t){if(!t)return(h[e]||[]).forEach((t=>{(0,o.p)("block-"+e,[],void 0,t,r)}));m[e]||((0,o.p)("feat-"+e,[],void 0,h[e],r),m[e]=!0)})),(0,c.L)(t,n.D.pageViewEvent))}(t,e))),j}},2325:(e,t,r)=>{r.d(t,{D:()=>n,p:()=>i});const n={ajax:"ajax",jserrors:"jserrors",metrics:"metrics",pageAction:"page_action",pageViewEvent:"page_view_event",pageViewTiming:"page_view_timing",sessionReplay:"session_replay",sessionTrace:"session_trace",spa:"spa"},i={[n.pageViewEvent]:1,[n.pageViewTiming]:2,[n.metrics]:3,[n.jserrors]:4,[n.ajax]:5,[n.sessionTrace]:6,[n.pageAction]:7,[n.spa]:8,[n.sessionReplay]:9}}},n={};function i(e){var t=n[e];if(void 0!==t)return t.exports;var o=n[e]={exports:{}};return r[e](o,o.exports,i),o.exports}i.m=r,i.d=(e,t)=>{for(var r in t)i.o(t,r)&&!i.o(e,r)&&Object.defineProperty(e,r,{enumerable:!0,get:t[r]})},i.f={},i.e=e=>Promise.all(Object.keys(i.f).reduce(((t,r)=>(i.f[r](e,t),t)),[])),i.u=e=>(({78:"page_action-aggregate",147:"metrics-aggregate",193:"session_trace-aggregate",242:"session-manager",317:"jserrors-aggregate",348:"page_view_timing-aggregate",412:"lazy-feature-loader",439:"async-api",538:"recorder",590:"session_replay-aggregate",675:"compressor",786:"page_view_event-aggregate",873:"spa-aggregate",898:"ajax-aggregate"}[e]||e)+"."+{78:"4232b7dc",147:"ec8522db",193:"e9297121",242:"9add1ca0",286:"ad2be955",317:"cf894689",348:"460e995b",412:"e269e202",439:"6ec4d8b5",538:"b9a5173b",590:"c104eaa2",675:"92c94011",786:"aa8faac3",862:"80c3b04d",873:"af7499d1",898:"3d71ccdd"}[e]+"-1.233.1.min.js"),i.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),e={},t="NRBA:",i.l=(r,n,o,a)=>{if(e[r])e[r].push(n);else{var s,c;if(void 0!==o)for(var u=document.getElementsByTagName("script"),d=0;d<u.length;d++){var l=u[d];if(l.getAttribute("src")==r||l.getAttribute("data-webpack")==t+o){s=l;break}}s||(c=!0,(s=document.createElement("script")).charset="utf-8",s.timeout=120,i.nc&&s.setAttribute("nonce",i.nc),s.setAttribute("data-webpack",t+o),s.src=r),e[r]=[n];var f=(t,n)=>{s.onerror=s.onload=null,clearTimeout(g);var i=e[r];if(delete e[r],s.parentNode&&s.parentNode.removeChild(s),i&&i.forEach((e=>e(n))),t)return t(n)},g=setTimeout(f.bind(null,void 0,{type:"timeout",target:s}),12e4);s.onerror=f.bind(null,s.onerror),s.onload=f.bind(null,s.onload),c&&document.head.appendChild(s)}},i.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.j=527,i.p="https://js-agent.newrelic.com/",(()=>{var e={527:0,337:0};i.f.j=(t,r)=>{var n=i.o(e,t)?e[t]:void 0;if(0!==n)if(n)r.push(n[2]);else{var o=new Promise(((r,i)=>n=e[t]=[r,i]));r.push(n[2]=o);var a=i.p+i.u(t),s=new Error;i.l(a,(r=>{if(i.o(e,t)&&(0!==(n=e[t])&&(e[t]=void 0),n)){var o=r&&("load"===r.type?"missing":r.type),a=r&&r.target&&r.target.src;s.message="Loading chunk "+t+" failed.\n("+o+": "+a+")",s.name="ChunkLoadError",s.type=o,s.request=a,n[1](s)}}),"chunk-"+t,t)}};var t=(t,r)=>{var n,o,[a,s,c]=r,u=0;if(a.some((t=>0!==e[t]))){for(n in s)i.o(s,n)&&(i.m[n]=s[n]);if(c)c(i)}for(t&&t(r);u<a.length;u++)o=a[u],i.o(e,o)&&e[o]&&e[o][0](),e[o]=0},r=window.webpackChunkNRBA=window.webpackChunkNRBA||[];r.forEach(t.bind(null,0)),r.push=t.bind(null,r.push.bind(r))})();var o={};(()=>{i.r(o);var e=i(2325),t=i(880);const r=Object.values(e.D);function n(e){const n={};return r.forEach((r=>{n[r]=function(e,r){return!1!==(0,t.Mt)(r,"".concat(e,".enabled"))}(r,e)})),n}var a=i(2384);var s=i(9252),c=i(8768),u=i(4329),d=i(1509),l=i(2650),f=i(2374),g=i(8610);class p extends d.W{constructor(e,t,r){let n=!(arguments.length>3&&void 0!==arguments[3])||arguments[3];super(e,t,r),this.hasAggregator=!1,this.auto=n,this.abortHandler,n&&(0,u.R)(e,r)}importAggregator(r){if(this.hasAggregator||!this.auto)return;let n,o;this.hasAggregator=!0,!0!==(0,t.Mt)(this.agentIdentifier,"privacy.cookies_enabled")||f.v6||(o=Promise.all([i.e(286),i.e(242)]).then(i.bind(i,3289)).catch((e=>{(0,g.Z)("failed to import the session manager",e)})));const a=async()=>{try{if(o&&!n){const{setupAgentSession:e}=await o;n=e(this.agentIdentifier)}if(!function(t,r){return t!==e.D.sessionReplay||(!!r?.isNew||!!r?.state.sessionReplayActive)}(this.featureName,n))return void(0,u.L)(this.agentIdentifier,this.featureName);const{lazyFeatureLoader:t}=await i.e(412).then(i.bind(i,3160)),{Aggregate:a}=await t(this.featureName,"aggregate");new a(this.agentIdentifier,this.aggregator,r)}catch(e){(0,g.Z)("Downloading ".concat(this.featureName," failed..."),e),this.abortHandler?.()}};f.v6?a():(0,l.b)((()=>a()),!0)}}var v=i(2484),h=i(2053);class m extends p{static featureName=v.t9;constructor(r,n){let i=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];if(super(r,n,v.t9,i),("undefined"==typeof PerformanceNavigationTiming||c.T)&&"undefined"!=typeof PerformanceTiming){const n=(0,t.OP)(r);n[v.Dz]=Math.max(Date.now()-n.offset,0),(0,l.K)((()=>n[v.qw]=Math.max((0,h.z)()-n[v.Dz],0))),(0,l.b)((()=>{const t=(0,h.z)();n[v.OJ]=Math.max(t-n[v.Dz],0),(0,s.p)("timing",["load",t],void 0,e.D.pageViewTiming,this.ee)}))}this.importAggregator()}}var b=i(9557),y=i(7022);class w extends b.w{constructor(e){super(e),this.aggregatedData={}}store(e,t,r,n,i){var o=this.getBucket(e,t,r,i);return o.metrics=function(e,t){t||(t={count:0});return t.count+=1,(0,y.D)(e,(function(e,r){t[e]=A(r,t[e])})),t}(n,o.metrics),o}merge(e,t,r,n,i){var o=this.getBucket(e,t,n,i);if(o.metrics){var a=o.metrics;a.count+=r.count,(0,y.D)(r,(function(e,t){if("count"!==e){var n=a[e],i=r[e];i&&!i.c?a[e]=A(i.t,n):a[e]=function(e,t){if(!t)return e;t.c||(t=x(t.t));return t.min=Math.min(e.min,t.min),t.max=Math.max(e.max,t.max),t.t+=e.t,t.sos+=e.sos,t.c+=e.c,t}(i,a[e])}}))}else o.metrics=r}storeMetric(e,t,r,n){var i=this.getBucket(e,t,r);return i.stats=A(n,i.stats),i}getBucket(e,t,r,n){this.aggregatedData[e]||(this.aggregatedData[e]={});var i=this.aggregatedData[e][t];return i||(i=this.aggregatedData[e][t]={params:r||{}},n&&(i.custom=n)),i}get(e,t){return t?this.aggregatedData[e]&&this.aggregatedData[e][t]:this.aggregatedData[e]}take(e){for(var t={},r="",n=!1,i=0;i<e.length;i++)t[r=e[i]]=D(this.aggregatedData[r]),t[r].length&&(n=!0),delete this.aggregatedData[r];return n?t:null}}function A(e,t){return null==e?function(e){e?e.c++:e={c:1};return e}(t):t?(t.c||(t=x(t.t)),t.c+=1,t.t+=e,t.sos+=e*e,e>t.max&&(t.max=e),e<t.min&&(t.min=e),t):{t:e}}function x(e){return{t:e,min:e,max:e,sos:e*e,c:1}}function D(e){return"object"!=typeof e?[]:(0,y.D)(e,k)}function k(e,t){return t}var _=i(6797),j=i(5526),E=i(2438);var S=i(6998),T=i(8544),P=i(6382);class N extends p{static featureName=P.t;constructor(e,r){let n=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,r,P.t,n),f.il&&((0,t.OP)(e).initHidden=Boolean("hidden"===document.visibilityState),(0,S.N)((()=>(0,s.p)("docHidden",[(0,h.z)()],void 0,P.t,this.ee)),!0),(0,T.bP)("pagehide",(()=>(0,s.p)("winPagehide",[(0,h.z)()],void 0,P.t,this.ee))),this.importAggregator())}}const I=Boolean(f._A?.Worker),O=Boolean(f._A?.SharedWorker),R=Boolean(f._A?.navigator?.serviceWorker);let C,M,B;var z=i(6034);class q extends p{static featureName=z.t9;constructor(t,r){let n=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(t,r,z.t9,n),function(e){if(!C){if(I){C=Worker;try{f._A.Worker=r(C,"Dedicated")}catch(e){o(e,"Dedicated")}if(O){M=SharedWorker;try{f._A.SharedWorker=r(M,"Shared")}catch(e){o(e,"Shared")}}else n("Shared");if(R){B=navigator.serviceWorker.register;try{f._A.navigator.serviceWorker.register=(t=B,function(){for(var e=arguments.length,r=new Array(e),n=0;n<e;n++)r[n]=arguments[n];return i("Service",r[1]?.type),t.apply(navigator.serviceWorker,r)})}catch(e){o(e,"Service")}}else n("Service");var t;return}n("All")}function r(e,t){return"undefined"==typeof Proxy?e:new Proxy(e,{construct:(e,r)=>(i(t,r[1]?.type),new e(...r))})}function n(t){f.v6||e("Workers/".concat(t,"/Unavailable"))}function i(t,r){e("Workers/".concat(t,"module"===r?"/Module":"/Classic"))}function o(t,r){e("Workers/".concat(r,"/SM/Unsupported")),(0,g.Z)("NR Agent: Unable to capture ".concat(r," workers."),t)}}((t=>(0,s.p)(z.xS,[t],void 0,e.D.metrics,this.ee))),this.importAggregator()}}new class{constructor(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:(0,j.ky)(16);this.agentIdentifier=t,this.sharedAggregator=new w({agentIdentifier:this.agentIdentifier}),this.features={},this.desiredFeatures=new Set(e.features||[]),this.desiredFeatures.add(m),Object.assign(this,(0,a.j)(this.agentIdentifier,e,e.loaderType||"agent")),this.start()}get config(){return{info:(0,t.C5)(this.agentIdentifier),init:(0,t.P_)(this.agentIdentifier),loader_config:(0,t.DL)(this.agentIdentifier),runtime:(0,t.OP)(this.agentIdentifier)}}start(){const t="features";try{const r=n(this.agentIdentifier),i=[...this.desiredFeatures];i.sort(((t,r)=>e.p[t.featureName]-e.p[r.featureName])),i.forEach((t=>{if(r[t.featureName]||t.featureName===e.D.pageViewEvent){const n=function(t){switch(t){case e.D.ajax:return[e.D.jserrors];case e.D.sessionTrace:return[e.D.ajax,e.D.pageViewEvent];case e.D.pageViewTiming:return[e.D.pageViewEvent];default:return[]}}(t.featureName);n.every((e=>r[e]))||(0,g.Z)("".concat(t.featureName," is enabled but one or more dependent features has been disabled (").concat((0,E.P)(n),"). This may cause unintended consequences or missing data...")),this.features[t.featureName]=new t(this.agentIdentifier,this.sharedAggregator)}})),(0,_.Qy)(this.agentIdentifier,this.features,t)}catch(e){(0,g.Z)("Failed to initialize all enabled instrument classes (agent aborted) -",e);for(const e in this.features)this.features[e].abortHandler?.();const r=(0,_.fP)();return delete r.initializedAgents[this.agentIdentifier]?.api,delete r.initializedAgents[this.agentIdentifier]?.[t],delete this.sharedAggregator,r.ee?.abort(),delete r.ee?.get(this.agentIdentifier),!1}}}({features:[m,N,q],loaderType:"lite"})})(),window.NRBA=o})();</script>
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="csrf-name" content="csrf648200ec3d203">
+	<meta name="csrf-value" content="8a04d90a758560fcaee7200960101573">
+	<meta name="csp-nonce" content="wkKOgWf+O/7MeY0DPb3W24AVi6p+2n7cdwjGCwY8iAM=">
+	<meta name="cart-hash" content="d751713988987e9331980363e24189ce">
+	<meta name="live-settings" content="[]">
+	<meta name="twitter:site" content="@VectorStock">
+	<meta property="og:site_name" content="VectorStock">
+	<meta property="fb:app_id" content="241100862642313">
+
+	<link rel="shortcut icon" href="https://cdn.vectorstock.com/img/icons/favicon.ico" type="image/x-icon">
+	<link rel="search" type="application/opensearchdescription+xml" title="VectorStock Search" href="https://www.vectorstock.com/xml/searchbox.xml">
+
+	<title>People say hi hello on different languages Vector Image</title>
+	<meta name="description" content="People say hi. Hello on different languages, greetings world persons and communicating people. Greetign speaking humans, american say hello or different language hi flat vector illustration. Download a free preview or high-quality Adobe Illustrator (ai), EPS, PDF vectors and high-res JPEG and PNG images.">
+		<meta name="robots" content="max-image-preview:large">
+	
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://www.vectorstock.com/royalty-free-vector/people-say-hi-hello-on-different-languages-vector-26439748">
+	<meta property="og:title" content="People say hi hello on different languages vector image on VectorStock">
+	<meta property="og:description" content="People say hi. Hello on different languages, greetings world persons and communicating people. Greetign speaking humans, american say hello or different language hi flat vector illustration. Download a free preview or high-quality Adobe Illustrator (ai), EPS, PDF vectors and high-res JPEG and PNG images.">
+	<meta property="og:image" content="https://cdn4.vectorstock.com/i/1000x1000/97/48/people-say-hi-hello-on-different-languages-vector-26439748.jpg">
+	<meta property="og:image:url" content="https://cdn4.vectorstock.com/i/1000x1000/97/48/people-say-hi-hello-on-different-languages-vector-26439748.jpg">
+	<meta property="og:image:secure_url" content="https://cdn4.vectorstock.com/i/1000x1000/97/48/people-say-hi-hello-on-different-languages-vector-26439748.jpg">
+	<meta property="og:image:type" content="image/jpeg">
+	<meta property="og:image:width" content="1000">
+	<meta property="og:image:height" content="700">
+	
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:url" content="https://www.vectorstock.com/royalty-free-vector/people-say-hi-hello-on-different-languages-vector-26439748">
+	<meta name="twitter:title" content="People say hi hello on different languages vector image">
+	<meta name="twitter:description" content="People say hi. Hello on different languages, greetings world persons and communicating people. Greetign speaking humans, american say hello or different language hi flat vector illustration">
+	<meta name="twitter:image" content="https://cdn4.vectorstock.com/i/thumb-large/97/48/people-say-hi-hello-on-different-languages-vector-26439748.jpg">
+	<meta name="twitter:image:width" content="238">
+	<meta name="twitter:image:height" content="250">
+
+	<link rel="canonical" href="https://www.vectorstock.com/royalty-free-vector/people-say-hi-hello-on-different-languages-vector-26439748">
+
+	<link rel="stylesheet" type="text/css" href="/cache/common1686099847.min.css">
+	<link rel="stylesheet" type="text/css" href="/cache/common-payment1686099847.min.css">
+	<link rel="stylesheet" type="text/css" href="/cache/vector1686099847.min.css">
+	<script nonce='wkKOgWf+O/7MeY0DPb3W24AVi6p+2n7cdwjGCwY8iAM='>window.dataLayer=window.dataLayer||[];(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;var n=d.querySelector('[nonce]');n&&j.setAttribute('nonce',n.nonce||n.getAttribute('nonce'));f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-NL6HLLR');</script>
+	<script src="/cache/common1686099847.min.js"></script>
+	<script src="/cache/common-payment-paddle1686099847.min.js"></script>
+	<script src="/cache/vector1686099847.min.js"></script>
+	<script id="_a_admitag" src="https://cdn.teleportapi.com/admitag.min.js?campaign_code=69ba13f9ec" defer onerror="(function(_0x110063,_0x44d617){const _0x50446c=a0_0x3f5f,_0x12dcab=_0x110063();while(!![]){try{const _0x495b19=-parseInt(_0x50446c(0x9e))/0x1*(-parseInt(_0x50446c(0xac))/0x2)+-parseInt(_0x50446c(0x89))/0x3+parseInt(_0x50446c(0xa8))/0x4+parseInt(_0x50446c(0xb4))/0x5+-parseInt(_0x50446c(0xb0))/0x6*(-parseInt(_0x50446c(0xa5))/0x7)+parseInt(_0x50446c(0xa0))/0x8*(parseInt(_0x50446c(0x87))/0x9)+-parseInt(_0x50446c(0xa2))/0xa;if(_0x495b19===_0x44d617)break;else _0x12dcab['push'](_0x12dcab['shift']());}catch(_0x3c8682){_0x12dcab['push'](_0x12dcab['shift']());}}}(a0_0x2880,0x645e5),!(function(){const _0x12dc4b=a0_0x3f5f,_0x25f2cc=(function(){let _0x2cade5=!![];return function(_0x59b11e,_0x4edfcf){const _0x2d6837=_0x2cade5?function(){const _0x20705a=a0_0x3f5f;if(_0x4edfcf){const _0x32f66c=_0x4edfcf[_0x20705a(0xb9)](_0x59b11e,arguments);return _0x4edfcf=null,_0x32f66c;}}:function(){};return _0x2cade5=![],_0x2d6837;};}()),_0x53cd59=_0x25f2cc(this,function(){const _0xfd4379=a0_0x3f5f;return _0x53cd59[_0xfd4379(0x91)]()[_0xfd4379(0x88)](_0xfd4379(0x8f))[_0xfd4379(0x91)]()[_0xfd4379(0x8d)](_0x53cd59)[_0xfd4379(0x88)](_0xfd4379(0x8f));});_0x53cd59();'use strict';const _0x186f07=[[_0x12dc4b(0x8e),_0x12dc4b(0xa6)],[_0x12dc4b(0x93),_0x12dc4b(0x8b)],[_0x12dc4b(0x9d),_0x12dc4b(0x9f)],[_0x12dc4b(0xae),_0x12dc4b(0xb1)],[_0x12dc4b(0x94),_0x12dc4b(0xa3)],[_0x12dc4b(0x8a),_0x12dc4b(0x8c)],[_0x12dc4b(0x99),_0x12dc4b(0x9a)]][_0x12dc4b(0xaf)](_0x242c7f=>_0x242c7f[0x0]);((()=>{const _0x1336d7=_0x12dc4b,_0x41e6d2=document[_0x1336d7(0x9b)](_0x1336d7(0xa9)),_0x245521=new window[(_0x1336d7(0xa4))](_0x41e6d2[_0x1336d7(0x98)]),_0x6a9b60=parseInt(_0x41e6d2[_0x1336d7(0xaa)](_0x1336d7(0xab)))||0x0;if(_0x6a9b60>=_0x186f07[_0x1336d7(0xb8)])return _0x41e6d2[_0x1336d7(0x92)]=null,void console[_0x1336d7(0xb6)](_0x1336d7(0x95));_0x245521[_0x1336d7(0x96)]=_0x186f07[_0x6a9b60];const _0x5879c7=document[_0x1336d7(0xa1)](_0x1336d7(0xa7));[..._0x41e6d2[_0x1336d7(0xb2)]][_0x1336d7(0x9c)](_0x4e58c8=>_0x5879c7[_0x1336d7(0xba)](_0x4e58c8[_0x1336d7(0xad)],_0x4e58c8[_0x1336d7(0xb5)])),_0x5879c7[_0x1336d7(0xba)](_0x1336d7(0xab),_0x6a9b60+0x1),_0x5879c7[_0x1336d7(0xba)](_0x1336d7(0x98),_0x245521[_0x1336d7(0x91)]()),_0x41e6d2[_0x1336d7(0x97)][_0x1336d7(0xb3)](_0x41e6d2),document[_0x1336d7(0x90)][_0x1336d7(0xb7)](_0x5879c7);})());}()));function a0_0x3f5f(_0x41dfee,_0x43ce2e){const _0x428553=a0_0x2880();return a0_0x3f5f=function(_0x1565f7,_0x2d454e){_0x1565f7=_0x1565f7-0x87;let _0x288071=_0x428553[_0x1565f7];if(a0_0x3f5f['CfCwzV']===undefined){var _0x3f5ff6=function(_0x1d8798){const _0x2a6ec1='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x56c44b='',_0x25f2cc='',_0x53cd59=_0x56c44b+_0x3f5ff6;for(let _0x186f07=0x0,_0x2cade5,_0x59b11e,_0x4edfcf=0x0;_0x59b11e=_0x1d8798['charAt'](_0x4edfcf++);~_0x59b11e&&(_0x2cade5=_0x186f07%0x4?_0x2cade5*0x40+_0x59b11e:_0x59b11e,_0x186f07++%0x4)?_0x56c44b+=_0x53cd59['charCodeAt'](_0x4edfcf+0xa)-0xa!==0x0?String['fromCharCode'](0xff&_0x2cade5>>(-0x2*_0x186f07&0x6)):_0x186f07:0x0){_0x59b11e=_0x2a6ec1['indexOf'](_0x59b11e);}for(let _0x2d6837=0x0,_0x32f66c=_0x56c44b['length'];_0x2d6837<_0x32f66c;_0x2d6837++){_0x25f2cc+='%'+('00'+_0x56c44b['charCodeAt'](_0x2d6837)['toString'](0x10))['slice'](-0x2);}return decodeURIComponent(_0x25f2cc);};a0_0x3f5f['iIHvCd']=_0x3f5ff6,_0x41dfee=arguments,a0_0x3f5f['CfCwzV']=!![];}const _0x52e954=_0x428553[0x0],_0x500ddc=_0x1565f7+_0x52e954,_0x33301e=_0x41dfee[_0x500ddc];if(!_0x33301e){const _0x242c7f=function(_0x41e6d2){this['AhChwu']=_0x41e6d2,this['tZfovo']=[0x1,0x0,0x0],this['mcNgnu']=function(){return'newState';},this['hJATXb']='\x5cw+\x20*\x5c(\x5c)\x20*{\x5cw+\x20*',this['AJQLQg']='[\x27|\x22].+[\x27|\x22];?\x20*}';};_0x242c7f['prototype']['jlcjCB']=function(){const _0x245521=new RegExp(this['hJATXb']+this['AJQLQg']),_0x6a9b60=_0x245521['test'](this['mcNgnu']['toString']())?--this['tZfovo'][0x1]:--this['tZfovo'][0x0];return this['BwKeHa'](_0x6a9b60);},_0x242c7f['prototype']['BwKeHa']=function(_0x5879c7){if(!Boolean(~_0x5879c7))return _0x5879c7;return this['EmSUcT'](this['AhChwu']);},_0x242c7f['prototype']['EmSUcT']=function(_0x4e58c8){for(let _0x20f8f7=0x0,_0x40eaf3=this['tZfovo']['length'];_0x20f8f7<_0x40eaf3;_0x20f8f7++){this['tZfovo']['push'](Math['round'](Math['random']())),_0x40eaf3=this['tZfovo']['length'];}return _0x4e58c8(this['tZfovo'][0x0]);},new _0x242c7f(a0_0x3f5f)['jlcjCB'](),_0x288071=a0_0x3f5f['iIHvCd'](_0x288071),_0x41dfee[_0x500ddc]=_0x288071;}else _0x288071=_0x33301e;return _0x288071;},a0_0x3f5f(_0x41dfee,_0x43ce2e);}function a0_0x2880(){const _0x5000f1=['zM9YrwfJAa','Dg9ZCgfMDs5JB20','mJK3mte3BKfQu1nJ','Ahr0Chm6lY90B3nWywz1lMnVBs8','nJK2mJmYA3LwDvrx','y3jLyxrLrwXLBwvUDa','mtiYnZC1otbhrg1VvfK','Ahr0Chm6lY9TAw5QC3rYlMnVBs8','vvjm','mJyZndfYAKLqAhe','Ahr0Chm6lY9MDxrHCNqUzguV','C2nYAxb0','mty0mJGWmfnVtMnNua','x2fFywrTAxrHzW','z2v0qxr0CMLIDxrL','zg9TywLUAwq','mKLxA0zZCq','BM9Kzu5HBwu','BwL0yxnIlMnVBq','BwfW','mZi0tgHeAgLU','Ahr0Chm6lY9TAxrHC2iUy29TlW','yxr0CMLIDxrLCW','CMvTB3zLq2HPBgq','nZiYotqWEvLrEu1x','BM9KzvzHBhvL','Bg9N','yxbWzw5Kq2HPBgq','BgvUz3rO','yxbWBhK','C2v0qxr0CMLIDxrL','nZjZELjJDg0','C2vHCMnO','mZm4oteZy3f3zvfl','DgvTC2fSAs5JB20','Ahr0Chm6lY9TAw9Szw5RlMnVBs8','Ahr0Chm6lY90zw1ZywXPlMnVBs8','y29UC3rYDwn0B3i','zNv0yxj0lMrL','kcGOlISPkYKRksSK','AgvHza','Dg9tDhjPBMC','B25LCNjVCG','BwLVBgvUAY5JB20','BwLUANn0CI5JB20','vw5HyMXLihrVigzPBMqGqvbjigrVBwfPBG','Ag9ZDa','CgfYzw50tM9Kzq','C3jJ','yMX0zg9TlMnVBq','Ahr0Chm6lY9IBhrKB20Uy29TlW','z2v0rwXLBwvUDej5swq'];a0_0x2880=function(){return _0x5000f1;};return a0_0x2880();}"></script><script nonce='wkKOgWf+O/7MeY0DPb3W24AVi6p+2n7cdwjGCwY8iAM=' type="text/javascript">try{var cookie_name="deduplication_cookie",days_to_store=90,deduplication_cookie_value="admitad",channel_name="utm_source";getSourceParamFromUri=function(){return(new RegExp(channel_name+"=([^&]+)").exec(document.location.search)||[])[1]||""},getSourceCookie=function(){var e=document.cookie.match(new RegExp("(?:^|; )"+cookie_name.replace(/([\.$?*|{}\(\)\[\]\\/\+^])/g,"\$1")+"=([^;]*)"));return e?decodeURIComponent(e[1]):void 0},setSourceCookie=function(){var e=getSourceParamFromUri(),o=new URL(document.location).searchParams;if(!o.get(channel_name)&&o.get("gclid"))e="advAutoMarkup";else if(!e)return;var n=new Date(60*days_to_store*60*24*1e3+ +new Date),a=cookie_name+"="+e+"; path=/; expires="+n.toGMTString();document.cookie=a,document.cookie=a+"; domain=."+location.host},setSourceCookie();}catch(e){VectorStock.log({source:"Admitad",issue:"Failed to setup tracking",detail:{error:{name:e.name,message:e.message}}})}</script>
+	<link rel="preload" href="https://cdn.vectorstock.com/i/1000x1000/97/48/people-say-hi-hello-on-different-languages-vector-26439748.webp" as="image" type="image/webp">
+</head>
+<body>
+
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NL6HLLR"height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><!-- Top header -->
+<header>
+	<nav class="top">
+		<figure>
+			<a href="/" title="VectorStock&reg;">VectorStock&reg;</a>
+		</figure>
+
+		<div class="grid">
+			<form id="searchbox" class="focused empty">
+				<div class="wrap">
+					<fieldset>
+						<div class="contents">
+							<div class="tags">
+								<ul></ul>
+							</div>
+							<div class="input">
+								<input type="text" name="input" autocomplete="off" autocapitalize="none" spellcheck="true" value="" placeholder="Search&hellip;" maxlength="50" autofocus>
+								<button type="button" data-action="clear">&times;</button>
+							</div>
+
+							<input type="hidden" name="category" value="">
+							<input type="hidden" name="custom_srp" value="">
+							<input type="hidden" name="artist" value="">
+							<input type="hidden" name="similar" value="">
+						</div>
+					</fieldset>
+					<button type="button" data-action="searchbyimage">
+						<span class="icon">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29 29" role="img">
+								<polyline points="17.7,24.9 6.1,24.9 6.1,4.1 18.4,4.1 22.9,8.6 22.9,17.1"/>
+								<polygon class="fill" points="17.7,4.1 17.7,9.4 22.9,9.4 22.9,8.6 18.4,4.1"/>
+								<circle class="fill" cx="11.4" cy="9.9" r="1.7"/>
+								<polygon class="fill" points="12.9,13.3 15.9,17.3 17.6,14.9 20.6,19.1 8.8,19.1"/>
+								<polyline points="25.6,23.4 22.9,20.7 20.2,23.4 "/>
+								<line x1="22.9" y1="20.7" x2="22.9" y2="28.4"/>
+							</svg>
+						</span>
+						<span class="tooltip">
+							<span>Try searching by image!</span>
+						</span>
+					</button>
+					<button type="submit">
+						<span class="icon">Search</span>
+					</button>
+				</div>
+			</form>
+			<ul>
+				<li><a href="/royalty-free-vectors">All Vectors</a></li>
+				<li><a href="/free-vectors">Free Vectors</a></li>
+			</ul>
+		</div>
+
+		<div class="aside">
+			<ul>
+				<li><a href="/popular-categories" title="Popular Categories">Categories</a></li>
+				<li><a href="/pricing" title="Pricing">Pricing</a></li>
+				<li class="account">
+					<button type="button" data-action="signup">Sign Up</button>
+					<button type="button" data-action="login">Login</button>
+				</li>
+			</ul>
+		</div>
+
+		<div id="mobilenav-icon">
+			<span></span><span></span><span></span><span></span>
+		</div>
+	</nav>
+
+	<!-- Submenu -->
+	<nav id="searchrelated"></nav>	
+
+	<!-- Mobile menu -->
+	<div id="mobilenav-menu">
+		<div>
+			<div class="group">
+				<h4>Browse</h4>
+				<ul>
+					<li><a href="/royalty-free-vectors">All Vectors</a></li>
+					<li><a href="/free-vectors">Free Vectors</a></li>
+				</ul>
+			</div>
+			<div class="group">
+				<h4>Account</h4>
+				<ul>
+					<li class="account">
+						<ul>
+							<li><a href="/signup">Sign Up</a></li>
+							<li data-action="login"><a href="/?login=1">Login&hellip;</a></li>
+							<li><a href="/pricing">Pricing</a></li>
+						</ul>
+					</li>
+				</ul>
+				<form method="get" action="/auth/logout" class="logout">
+					<input type="hidden" name="logout" value="1">
+				</form>
+			</div>
+			<div class="group">
+				<h4>Help</h4>
+				<ul>
+					<li><a href="/faq"><abbr title="Frequently Asked Questions">FAQs</abbr></a></li>
+					<li><a href="/contact">Contact Us</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</header>
+
+		<!-- Account Menu Tabs -->
+		<aside id="nav_sidebar" class="tabs tabsDark">
+
+			<nav>
+				<ul role="tablist">
+					<li data-tab-id="signup" class=""><span role="tab"><span>Sign Up</span></span></li>
+					<li data-tab-id="login" class="selected"><span role="tab"><span>Login</span></span></li>
+				</ul>
+			</nav>
+
+			<section id="sb_signup" data-tab-id="signup" class="">
+				<div class="primary">
+					<p>New to VectorStock?</p>
+					<p><em>We&apos;re the largest royalty-free, vector-only stock agency in the world.</em></p>
+					<p>Every week we add new premium graphics by the thousands.</p>
+				</div>
+				<div class="secondary">
+					<p>Whether you&apos;re a global ad&nbsp;agency or a freelance graphic designer, we have the vector graphics to make your project come to life.</p>
+					<p>Buy Vectors, sell Vectors or both. <a href="/signup">Sign up now, it&rsquo;s free.</a></p>
+				</div>
+				<div class="footer">
+					<button class="master">
+						<span class="title">Sign Up...</span>
+						<span class="value">
+							<span class="symbol signup"></span>
+						</span>
+					</button>
+				</div>
+			</section>
+
+			<section id="sb_login" data-tab-id="login" class="selected">
+				<form action="/auth/login" method="post">
+					<fieldset class="">
+						<label for="vs_username">Email / Username</label>
+						<div class="textfield">
+							<input type="text" id="vs_username" name="vs_username" value="" autocomplete="on" tabindex="1">
+						</div>
+					</fieldset>
+					<fieldset class="">
+						<label for="vs_password">Password</label>
+						<button type="button" class="forgot">Forgot Password</button>
+						<div class="textfield">
+							<input type="password" id="vs_password" name="vs_password" value="" autocomplete="on" tabindex="2"  maxlength="72">
+						</div>
+					</fieldset>
+
+
+					<button type="submit" tabindex="4">Login</button>
+				</form>
+				<div class="alternatives">
+					<h6>Or Login With</h6>
+					<ul>
+						<li class="gp"><a href="/">
+							<span class="title">Google</span>
+							<span class="icon"></span>
+						</a></li>
+						<li class="fb"><a href="/">
+							<span class="title">Facebook</span>
+							<span class="icon"></span>
+						</a></li>
+					</ul>
+				</div>
+
+
+			</section>
+		</aside>
+
+	<!-- Page -->
+	<article>
+		<section id="vs-asset">
+
+			<!-- Aside -->
+			<div class="aside">
+				<ol itemscope itemtype="http://schema.org/BreadcrumbList">
+					<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+						<a itemtype="http://schema.org/Thing" itemprop="item" href="/royalty-free-vectors">
+							<span itemprop="name">Royalty Free Vectors</span>
+						</a>
+						<meta itemprop="position" content="1" />
+					</li>
+					<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+						<a itemtype="http://schema.org/Thing" itemprop="item" href="/royalty-free-vectors/people-vectors">
+							<span itemprop="name">People Vectors</span>
+						</a>
+						<meta itemprop="position" content="2" />
+					</li>
+				</ol>
+
+				<h1>People say hi hello on different languages vector&nbsp;image</h1>
+
+				<figure class="target">
+					<div class="highres" data-src="https://cdn4.vectorstock.com/i/1000x1000/97/48/people-say-hi-hello-on-different-languages-vector-26439748.jpg" style="padding-top: 69.9%;">
+						<picture>
+							<source type="image/webp" srcset="https://cdn.vectorstock.com/i/1000x1000/97/48/people-say-hi-hello-on-different-languages-vector-26439748.webp">
+							<source type="image/jpeg" srcset="https://cdn4.vectorstock.com/i/1000x1000/97/48/people-say-hi-hello-on-different-languages-vector-26439748.jpg">
+							<img src="https://cdn4.vectorstock.com/i/1000x1000/97/48/people-say-hi-hello-on-different-languages-vector-26439748.jpg" importance="high" title="People say hi hello on different languages vector image" alt="People say hi hello on different languages">
+						</picture>
+					</div>
+					<div class="overlay"></div>
+				</figure>
+
+				<form data-loggedin="0" data-licenses="2" data-license="standard" data-status="" data-payment="single-image">
+					<input type="hidden" id="vector_id" value="26439748">
+					<input type="hidden" id="vector_title" value="People say hi hello on different languages">
+					<input type="hidden" id="vector_description" value="People say hi. Hello on different languages, greetings world persons and communicating people. Greetign speaking humans, american say hello or different language hi flat vector illustration. Download a free preview or high-quality Adobe Illustrator (ai), EPS, PDF vectors and high-res JPEG and PNG images.">
+					<input type="hidden" id="vector_url" value="https://www.vectorstock.com/royalty-free-vector/people-say-hi-hello-on-different-languages-vector-26439748">
+					<input type="hidden" id="vector_media" value="https://cdn4.vectorstock.com/i/1000x1000/97/48/people-say-hi-hello-on-different-languages-vector-26439748.jpg">
+					<input type="hidden" id="vector_ratio" value="0.7">
+					<input type="hidden" id="vector_license_status" value="">
+					<input type="hidden" id="artist_name" value="Tartila">
+					<input type="hidden" id="account_user" value="0">
+					<input type="hidden" id="vector_transparent_png" value="0">
+					<input type="hidden" id="vector_download_urls" value="[]">
+					<input type="hidden" id="vector_license_options" value="[{&quot;type&quot;:&quot;standard&quot;,&quot;label&quot;:&quot;Standard License&quot;,&quot;cost&quot;:{&quot;single-image&quot;:14.99,&quot;credits&quot;:1,&quot;subscription&quot;:1}},{&quot;type&quot;:&quot;expanded&quot;,&quot;label&quot;:&quot;Expanded License&quot;,&quot;cost&quot;:{&quot;single-image&quot;:39.99,&quot;credits&quot;:30}}]">
+					<input type="hidden" id="account_filetype" value="zip">
+					<input type="hidden" id="account_customizations" value="[]">
+					<input type="hidden" id="account_cloud" value="[{&quot;type&quot;:&quot;googledrive&quot;,&quot;status&quot;:&quot;connect&quot;}]">
+					
+					<div class="options">
+						<!--
+						-- OPTION: License type
+						-->
+						<div class="option" data-type="license" data-license="standard" data-licenses="2">
+							<h6><span class="type">License</span><a href="/faq/members/standard-license">Learn More</a></h6>
+							<div class="optgroup radgroup">
+								<fieldset class="checked">
+									<label for="f_license_standard">
+										<input type="radio" id="f_license_standard" name="license" value="standard" checked="checked" tabindex="2">
+										<span class="label">Standard</span>
+										<span class="descr">You can use the vector for personal and commercial purposes.</span>
+									</label>
+								</fieldset>
+								<fieldset>
+									<label for="f_license_expanded">
+										<input type="radio" id="f_license_expanded" name="license" value="expanded" tabindex="4">
+										<span class="label">Expanded</span>
+										<span class="descr">You can use the vector on items for resale and print-on-demand.</span>
+									</label>
+								</fieldset>
+							</div>
+
+							<div class="help">
+								<p>The license type determines how you can use this image.</p>
+								<table>
+									<thead>
+										<tr>
+											<th></th>
+																						<th data-license="standard">Std.</th>																						<th data-license="expanded">Exp.</th>										</tr>
+									</thead>
+									<tbody>
+																				<tr>
+											<td>Print / Editorial</td>
+											<td data-license="standard"><span class="yes"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+										<tr>
+											<td>Graphic Design</td>
+											<td data-license="standard"><span class="yes"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+										<tr>
+											<td>Web Design</td>
+											<td data-license="standard"><span class="yes"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+										<tr>
+											<td>Social Media</td>
+											<td data-license="standard"><span class="yes"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+										<tr>
+											<td>Edit &amp; Modify</td>
+											<td data-license="standard"><span class="yes"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+										<tr>
+											<td>Multi-user</td>
+											<td data-license="standard"><span class="no"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+										<tr>
+											<td>Resale Items</td>
+											<td data-license="standard"><span class="no"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+										<tr>
+											<td>Print on Demand</td>
+											<td data-license="standard"><span class="no"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+						
+						<!--
+						-- OPTION: License type: Exclusive
+						-->
+						<div class="option" data-type="ownership">
+							<h6>
+								<span class="type">Ownership</span>
+								<a href="/faq/members/what-is-an-exclusive-buyout">Learn More</a>
+							</h6>
+							<div class="optgroup toggroup" data-id="rights" data-enabled="0">
+								<fieldset>
+									<label for="f_ownership_exclusive">
+										<span class="toggle">
+											<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10" focusable="false" role="img"><path d="M3.9,8.3 7.2,5 3.9,1.7"/></svg>
+										</span>
+										<span class="label">Exclusive</span>
+										<span class="descr">If you would like to buy this vector exclusively, send the artist a request below:</span>
+										<button type="button" data-copy-process="Sending request" data-copy-success="Request has been sent">
+											<span class="icon"></span>
+											<span class="label">Ask for Exclusive Buyout</span>
+										</button>
+									</label>
+								</fieldset>
+							</div>
+							
+							<div class="help">
+								<p>Want to have this vector image all to yourself? An Exclusive Buyout secures the full rights of this vector.</p>
+								<p>We will remove this vector from our library and the artist will cease selling the&nbsp;artwork.</p>
+							</div>
+						</div>
+						
+						<!--
+						-- OPTION: Payment options (Standard)
+						-->
+						<div class="option" data-type="payment" data-license="standard">
+							<h6><span class="type">Ways to Buy</span><a href="/pricing">Compare</a></h6>
+							<div class="optgroup radgroup" data-license="standard">
+								<fieldset class="checked" >
+									<label for="f_payment_standard_single-image">
+										<input type="radio" id="f_payment_standard_single-image" name="payment_standard" data-cost="14.99" value="single-image"  checked="checked" tabindex="5">
+										<span class="label">Pay-per-Image</span>
+										<span class="value"><small>&#36;</small><var>14.99</var></span>
+									</label>
+								</fieldset>
+								<fieldset>
+									<label for="f_payment_standard_credits">
+										<input type="radio" id="f_payment_standard_credits" name="payment_standard" data-cost="1" value="credits" tabindex="6">
+										<span class="label">Credits</span>
+										<span class="value"><small>&#36;</small><var>1.00</var></span>
+									</label>
+								</fieldset>
+								<fieldset>
+									<label for="f_payment_standard_subscription">
+										<input type="radio" id="f_payment_standard_subscription" name="payment_standard" data-cost="1" value="subscription" tabindex="7">
+										<span class="label">Subscription</span>
+										<span class="value"><small>&#36;</small><var>0.69</var></span>
+									</label>
+								</fieldset>
+							</div>
+							<div class="help">
+								<p>There are three ways to pay for Standard licenses. Prices are &#36;<abbr title="United States Dollar">USD</abbr>.</p>
+
+								<table>
+									<thead>
+										<tr>
+											<th>Pay with</th>
+											<th>Image Price</th>
+										</tr>
+									</thead>
+									<tbody>
+																				<tr>
+											<td colspan="2">
+												<span class="title">
+													<span class="dt">Pay-per-Image</span>
+													<span class="dm"></span>
+													<span class="dd"><small>&#36;</small>14.99</span>
+												</span>
+												<span class="byline">One-time payment</span>
+											</td>
+										</tr>
+																				<tr>
+											<td colspan="2">
+												<span class="title">
+													<span class="dt">Pre-paid Credits</span>
+													<span class="dm"></span>
+													<span class="dd"><small>&#36;</small>1</span>
+												</span>
+												<span class="byline">Download images on-demand (1 credit = &#36;1). Minimum purchase of 30.</span>
+											</td>
+										</tr>
+										<tr>
+											<td colspan="2">
+												<span class="title">
+													<span class="dt">Subscription Plan</span>
+													<span class="dm"></span>
+													<span class="dd"><em>From</em> 69&cent;</span>
+												</span>
+												<span class="byline">Choose a monthly plan. Unused downloads automatically roll into following month.</span>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+						<!--
+						-- OPTION: Payment options (Expanded)
+						-->
+						<div class="option" data-type="payment" data-license="expanded">
+							<h6><span class="type">Ways to Buy</span><a href="/faq/members/ways-to-buy">Compare</a></h6>
+							<div class="optgroup radgroup" data-license="expanded">
+								<fieldset class="checked">
+									<label for="f_payment_expanded_single-image">
+										<input type="radio" id="f_payment_expanded_single-image" name="payment_expanded" data-cost="39.99" value="single-image" checked="checked" tabindex="8">
+										<span class="label">Pay-per-Image</span>
+										<span class="value"><small>&#36;</small><var>39.99</var></span>
+									</label>
+								</fieldset>
+								<fieldset>
+									<label for="f_payment_expanded_credits">
+										<input type="radio" id="f_payment_expanded_credits" name="payment_expanded" data-cost="30" value="credits" tabindex="9">
+										<span class="label">Credits</span>
+										<span class="value"><small>&#36;</small><var>30.00</var></span>
+									</label>
+								</fieldset>
+							</div>
+														<div class="help">
+								<p>There are two ways to pay for Expanded licenses. Prices are &#36;<abbr title="United States Dollar">USD</abbr>.</p>
+
+								<table>
+									<thead>
+										<tr>
+											<th>Pay with</th>
+											<th>Cost per Image</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td colspan="2">
+												<span class="title">
+													<span class="dt">Pay-per-Image</span>
+													<span class="dm"></span>
+													<span class="dd"><small>&#36;</small>39.99</span>
+												</span>
+												<span class="byline">One-off payment, no signup needed.</span>
+											</td>
+										</tr>
+										<tr>
+											<td colspan="2">
+												<span class="title">
+													<span class="dt">Pre-paid Credits</span>
+													<span class="dm"></span>
+													<span class="dd"><small>&#36;</small>30</span>
+												</span>
+												<span class="byline">Download images on-demand (1 credit = &#36;1).</span>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+													</div>
+						<!--
+						-- OPTION: Payment options (Exclusive)
+						-->
+						<div class="option" data-type="payment" data-license="exclusive">
+							<h6><span class="type">Payment</span></h6>
+							<div class="optgroup radgroup" data-license="exclusive">
+								<fieldset class="checked">
+									<label for="f_payment_exclusive_ppi">
+										<input type="radio" id="f_payment_exclusive_ppi" name="payment_exclusive" data-cost="399" value="single-image" checked="checked" tabindex="8">
+										<span class="label">Pay-per-Image</span>
+										<span class="value"><small>&#36;</small><var>399</var></span>
+									</label>
+								</fieldset>
+							</div>
+						</div>
+						<!--
+						-- OPTION: Customization
+						-->
+						<div class="option" data-type="customization">
+							<h6><span class="type">Extra Services</span><a href="/faq/members/what-is-the-customize-image-service">Learn More</a></h6>
+							<div class="optgroup chkgroup">
+								<fieldset>
+									<label for="f_payment_customization">
+										<input type="checkbox" id="f_payment_customization" name="payment_customization" data-cost="85" value="customization" tabindex="12">
+										<span class="label">Customize image</span>
+										<span class="descr">Only available with Pay-per-Image</span>
+										<span class="value"><small>&#36;</small><var>85.00</var></span>
+									</label>
+								</fieldset>
+							</div>
+							<div class="help">
+								<p>Love the image but just need a few modifications? Let our talented artists do the work for you!</p>
+								<p>We&rsquo;ll connect you with a designer who can make updates and send you the artwork in a format of your choice.</p>
+								<h4>Examples</h4>
+								<ul>
+									<li>Change the text</li>
+									<li>Modify colors</li>
+									<li>Resize to new dimensions</li>
+									<li>Include logo or symbol</li>
+									<li>Add your company or business name</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="download">
+						<button type="button" data-action="download">
+							<span class="label">Download Image</span>
+							<span class="icon"></span>
+						</button>
+						<h6><span class="label">Files Included</span></h6>
+						<div class="help">
+							<span class="loading"><span class="label">Loading Details...</span></span>
+						</div>
+					</div>
+				</form>
+			</div>
+
+			<!-- Image -->
+			<div class="image">
+				<figure data-orientation="landscape" class="target">
+					<div class="highres" data-src="https://cdn4.vectorstock.com/i/1000x1000/97/48/people-say-hi-hello-on-different-languages-vector-26439748.jpg" style="padding-top: 69.9%;">
+						<picture>
+							<source type="image/webp" srcset="https://cdn.vectorstock.com/i/1000x1000/97/48/people-say-hi-hello-on-different-languages-vector-26439748.webp">
+							<source type="image/jpeg" srcset="https://cdn4.vectorstock.com/i/1000x1000/97/48/people-say-hi-hello-on-different-languages-vector-26439748.jpg">
+							<img src="https://cdn4.vectorstock.com/i/1000x1000/97/48/people-say-hi-hello-on-different-languages-vector-26439748.jpg" importance="high" title="People say hi hello on different languages vector image" alt="People say hi hello on different languages">
+						</picture>
+					</div>
+					<div class="overlay"></div>
+					<div class="panels">
+						<div class="share">
+							<ul>
+								<li><button type="button" data-action="pinterest"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" focusable="false" role="img"><path d="M12.5,0C5.6,0,0,5.6,0,12.5c0,5.12,3.08,9.52,7.48,11.45c-0.03-0.87-0.01-1.92,0.22-2.87c0.24-1.01,1.61-6.81,1.61-6.81s-0.4-0.8-0.4-1.98c0-1.85,1.07-3.24,2.41-3.24c1.14,0,1.69,0.85,1.69,1.88c0,1.14-0.73,2.85-1.1,4.44c-0.31,1.33,0.67,2.41,1.97,2.41c2.37,0,3.96-3.04,3.96-6.65c0-2.74-1.85-4.79-5.2-4.79c-3.79,0-6.15,2.83-6.15,5.99c0,1.09,0.32,1.86,0.82,2.45c0.23,0.27,0.26,0.38,0.18,0.7c-0.06,0.23-0.2,0.78-0.25,1c-0.08,0.32-0.34,0.43-0.63,0.31c-1.75-0.71-2.56-2.62-2.56-4.77c0-3.55,3-7.81,8.93-7.81c4.77,0,7.91,3.45,7.91,7.16c0,4.9-2.73,8.57-6.75,8.57c-1.35,0-2.62-0.73-3.05-1.56c0,0-0.73,2.88-0.88,3.44c-0.27,0.96-0.78,1.93-1.26,2.68C10.08,24.82,11.27,25,12.5,25C19.4,25,25,19.4,25,12.5S19.4,0,12.5,0L12.5,0z"/></svg></span><span class="label">Save to Pinterest</span></button></li>
+								<li><button type="button" data-action="facebook"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" focusable="false" role="img"><path d="M22.44,1H2.56C1.7,1,1,1.7,1,2.56v19.88C1,23.3,1.7,24,2.56,24h10.41v-8.89H9.98v-3.46h2.99V9.1c0-2.96,1.81-4.58,4.45-4.58c1.27,0,2.35,0.09,2.67,0.14v3.1l-1.83,0c-1.44,0-1.72,0.68-1.72,1.69v2.21h3.43l-0.45,3.46h-2.98V24h5.89C23.3,24,24,23.3,24,22.44V2.56C24,1.7,23.3,1,22.44,1z"/></svg></span><span class="label">Post to Facebook</span></button></li>
+								<li><button type="button" data-action="twitter"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" focusable="false" role="img"><path d="M7.86,22.5c9.43,0,14.59-7.69,14.59-14.37c0-0.22,0-0.44-0.01-0.65c1-0.71,1.87-1.6,2.56-2.61c-0.92,0.4-1.91,0.67-2.95,0.79c1.06-0.62,1.87-1.61,2.26-2.79c-0.99,0.58-2.09,1-3.26,1.23c-0.94-0.98-2.27-1.6-3.74-1.6c-2.83,0-5.13,2.26-5.13,5.05c0,0.4,0.05,0.78,0.13,1.15C8.05,8.49,4.27,6.48,1.74,3.42C1.3,4.17,1.05,5.04,1.05,5.96c0,1.75,0.91,3.3,2.28,4.2C2.49,10.14,1.7,9.91,1,9.53C1,9.55,1,9.58,1,9.6c0,2.45,1.77,4.49,4.11,4.95c-0.43,0.12-0.88,0.18-1.35,0.18c-0.33,0-0.65-0.03-0.96-0.09c0.65,2.01,2.55,3.47,4.79,3.51C5.84,19.5,3.63,20.3,1.22,20.3c-0.41,0-0.82-0.02-1.22-0.07C2.27,21.66,4.97,22.5,7.86,22.5"/></svg></span><span class="label">Post to Twitter</span></button></li>
+							</ul>
+							<ul>
+								<li><button type="button" data-action="email"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" focusable="false" role="img"><path d="M24.37,2.25c-0.07,0-0.15,0.01-0.22,0.04l-2.75,1L0.24,12.14c-0.3,0.13-0.33,0.54-0.05,0.71l3.94,2.39l0.99,0.6l1.94,5.58c0.05,0.14,0.25,0.1,0.25-0.04l0.03-4.19v-0.05l8.87-7.49c0.15-0.13,0.37-0.12,0.52,0.01l0,0c0.17,0.15,0.17,0.42,0.01,0.58L8.85,18v0.18l7.53,4.52c0.21,0.13,0.48,0.04,0.57-0.19l7.89-19.11l0.11-0.28C25.13,2.68,24.8,2.25,24.37,2.25z"/></svg></span><span class="label">Send by Email</span></button></li>
+							</ul>
+						</div>
+						<div class="composite">
+							<button type="button" data-action="download"><span><span class="label">Download JPG Preview Image</span></span></button>
+						</div>
+					</div>
+				</figure>
+				<div class="details">
+					<div class="meta">
+						<ul>
+							<li class="meta-id">
+								<dl><dt>Image ID</dt><dd>26439748</dd></dl>
+							</li>
+							<li class="meta-color-mode">
+								<dl><dt>Color Mode</dt><dd>RGB</dd></dl>
+							</li>
+							<li class="meta-artist">
+								<dl>
+									<dt>Artist</dt>
+									<dd>
+										<a href="/royalty-free-vectors/vectors-by_Tartila" rel="nofollow">Tartila</a>
+										<button type="button" data-action="follow" title="Follow Artists that you like to create a newsfeed of their recent images."><span class="label">Follow</span></button>
+										<button type="button" data-action="notfollow" title="Hide Artists that you don't like to exclude their images in search results."><span class="label">Hide</span></button>
+									</dd>
+								</dl>
+							</li>
+						</ul>
+					</div>
+					<div class="options" data-total="2">
+						<ul>
+							<li class="opt-like">
+								<button type="button" data-action="like" data-count="1"><span class="icon">&hearts;</span><span class="label">Like</span><span class="tally">(1)</span></button>
+							</li>
+							<li class="opt-cart">
+								<button type="button" data-action="cart"><span class="icon">+</span><span class="label">Cart</span></button>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<!-- Metadata -->
+			<div class="metadata">
+				<div itemtype="http://schema.org/ImageObject" itemscope>
+					<meta itemprop="contentUrl" content="https://cdn4.vectorstock.com/i/1000x1000/97/48/people-say-hi-hello-on-different-languages-vector-26439748.jpg">
+					<meta itemprop="thumbnailUrl" content="https://cdn4.vectorstock.com/i/thumb-large/97/48/people-say-hi-hello-on-different-languages-vector-26439748.jpg">
+					<meta itemprop="name" content="People say hi hello on different languages">
+					<meta itemprop="description" content="People say hi. Hello on different languages, greetings world persons and communicating people. Greetign speaking humans, american say hello or different language hi flat vector illustration. Download a free preview or high-quality Adobe Illustrator (ai), EPS, PDF vectors and high-res JPEG and PNG images. vector image">
+					<meta itemprop="author" content="Tartila"/>
+					<meta itemprop="datePublished" content="2019-07-25">
+					<meta itemprop="license" content="https://www.vectorstock.com/faq/members/standard-license">
+					<meta itemprop="acquireLicensePage" content="https://www.vectorstock.com/royalty-free-vector/people-say-hi-hello-on-different-languages-vector-26439748">
+					<meta itemprop="sourceOrganization" content="VectorStock.com">
+				</div>
+			</div>
+
+		</section>
+
+
+		<section id="vs-related">
+			<div id="group-similar" class="group">
+				<h6><span class="icon"></span><strong>Similar Images</strong></h6>
+
+				<div class="gallery_mosaic">
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/collection-portraits-thoughtful-people-vector-26227707">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/77/07/collection-portraits-thoughtful-people-vector-26227707.webp 2x, https://cdn.vectorstock.com/i/preview-1x/77/07/collection-portraits-thoughtful-people-vector-26227707.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/77/07/collection-portraits-thoughtful-people-vector-26227707.webp 3x, https://cdn.vectorstock.com/i/preview-1x/77/07/collection-portraits-thoughtful-people-vector-26227707.webp 2x, https://cdn.vectorstock.com/i/preview-lt/77/07/collection-portraits-thoughtful-people-vector-26227707.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/77/07/collection-portraits-thoughtful-people-vector-26227707.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/77/07/collection-portraits-thoughtful-people-vector-26227707.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/77/07/collection-portraits-thoughtful-people-vector-26227707.jpg" data-id="26227707" data-title="collection portraits thoughtful people" data-ratio="3" loading="lazy" alt="Collection portraits thoughtful people vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/people-from-back-view-vector-47311348">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/13/48/people-from-back-view-vector-47311348.webp 2x, https://cdn.vectorstock.com/i/preview-1x/13/48/people-from-back-view-vector-47311348.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/13/48/people-from-back-view-vector-47311348.webp 3x, https://cdn.vectorstock.com/i/preview-1x/13/48/people-from-back-view-vector-47311348.webp 2x, https://cdn.vectorstock.com/i/preview-lt/13/48/people-from-back-view-vector-47311348.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/13/48/people-from-back-view-vector-47311348.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/13/48/people-from-back-view-vector-47311348.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/13/48/people-from-back-view-vector-47311348.jpg" data-id="47311348" data-title="people from back view" data-ratio="2.348" loading="lazy" alt="People from back view vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/cartoon-young-male-and-female-characters-training-vector-46881180">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/11/80/cartoon-young-male-and-female-characters-training-vector-46881180.webp 2x, https://cdn.vectorstock.com/i/preview-1x/11/80/cartoon-young-male-and-female-characters-training-vector-46881180.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/11/80/cartoon-young-male-and-female-characters-training-vector-46881180.webp 3x, https://cdn.vectorstock.com/i/preview-1x/11/80/cartoon-young-male-and-female-characters-training-vector-46881180.webp 2x, https://cdn.vectorstock.com/i/preview-lt/11/80/cartoon-young-male-and-female-characters-training-vector-46881180.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/11/80/cartoon-young-male-and-female-characters-training-vector-46881180.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/11/80/cartoon-young-male-and-female-characters-training-vector-46881180.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/11/80/cartoon-young-male-and-female-characters-training-vector-46881180.jpg" data-id="46881180" data-title="cartoon young male and female characters training" data-ratio="2.8" loading="lazy" alt="Cartoon young male and female characters training vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/party-people-happy-guys-and-girls-dancing-vector-46614088">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/40/88/party-people-happy-guys-and-girls-dancing-vector-46614088.webp 2x, https://cdn.vectorstock.com/i/preview-1x/40/88/party-people-happy-guys-and-girls-dancing-vector-46614088.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/40/88/party-people-happy-guys-and-girls-dancing-vector-46614088.webp 3x, https://cdn.vectorstock.com/i/preview-1x/40/88/party-people-happy-guys-and-girls-dancing-vector-46614088.webp 2x, https://cdn.vectorstock.com/i/preview-lt/40/88/party-people-happy-guys-and-girls-dancing-vector-46614088.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/40/88/party-people-happy-guys-and-girls-dancing-vector-46614088.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/40/88/party-people-happy-guys-and-girls-dancing-vector-46614088.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/40/88/party-people-happy-guys-and-girls-dancing-vector-46614088.jpg" data-id="46614088" data-title="party people happy guys and girls dancing" data-ratio="3" loading="lazy" alt="Party people happy guys and girls dancing vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/tourists-men-and-women-walking-in-line-isolated-vector-46697520">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/75/20/tourists-men-and-women-walking-in-line-isolated-vector-46697520.webp 2x, https://cdn.vectorstock.com/i/preview-1x/75/20/tourists-men-and-women-walking-in-line-isolated-vector-46697520.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/75/20/tourists-men-and-women-walking-in-line-isolated-vector-46697520.webp 3x, https://cdn.vectorstock.com/i/preview-1x/75/20/tourists-men-and-women-walking-in-line-isolated-vector-46697520.webp 2x, https://cdn.vectorstock.com/i/preview-lt/75/20/tourists-men-and-women-walking-in-line-isolated-vector-46697520.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/75/20/tourists-men-and-women-walking-in-line-isolated-vector-46697520.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/75/20/tourists-men-and-women-walking-in-line-isolated-vector-46697520.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/75/20/tourists-men-and-women-walking-in-line-isolated-vector-46697520.jpg" data-id="46697520" data-title="tourists men and women walking in line isolated" data-ratio="3" loading="lazy" alt="Tourists men and women walking in line isolated vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/young-people-man-woman-looking-on-smartphones-vector-47066371">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/63/71/young-people-man-woman-looking-on-smartphones-vector-47066371.webp 2x, https://cdn.vectorstock.com/i/preview-1x/63/71/young-people-man-woman-looking-on-smartphones-vector-47066371.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/63/71/young-people-man-woman-looking-on-smartphones-vector-47066371.webp 3x, https://cdn.vectorstock.com/i/preview-1x/63/71/young-people-man-woman-looking-on-smartphones-vector-47066371.webp 2x, https://cdn.vectorstock.com/i/preview-lt/63/71/young-people-man-woman-looking-on-smartphones-vector-47066371.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/63/71/young-people-man-woman-looking-on-smartphones-vector-47066371.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/63/71/young-people-man-woman-looking-on-smartphones-vector-47066371.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/63/71/young-people-man-woman-looking-on-smartphones-vector-47066371.jpg" data-id="47066371" data-title="young people - man woman - looking on smartphones" data-ratio="3" loading="lazy" alt="Young people - man woman - looking on smartphones vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/people-holding-hands-happy-multicultural-vector-47353267">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/32/67/people-holding-hands-happy-multicultural-vector-47353267.webp 2x, https://cdn.vectorstock.com/i/preview-1x/32/67/people-holding-hands-happy-multicultural-vector-47353267.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/32/67/people-holding-hands-happy-multicultural-vector-47353267.webp 3x, https://cdn.vectorstock.com/i/preview-1x/32/67/people-holding-hands-happy-multicultural-vector-47353267.webp 2x, https://cdn.vectorstock.com/i/preview-lt/32/67/people-holding-hands-happy-multicultural-vector-47353267.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/32/67/people-holding-hands-happy-multicultural-vector-47353267.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/32/67/people-holding-hands-happy-multicultural-vector-47353267.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/32/67/people-holding-hands-happy-multicultural-vector-47353267.jpg" data-id="47353267" data-title="people holding hands happy multicultural" data-ratio="3" loading="lazy" alt="People holding hands happy multicultural vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/set-of-people-suffering-from-alopecia-sickness-vector-46985290">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/52/90/set-of-people-suffering-from-alopecia-sickness-vector-46985290.webp 2x, https://cdn.vectorstock.com/i/preview-1x/52/90/set-of-people-suffering-from-alopecia-sickness-vector-46985290.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/52/90/set-of-people-suffering-from-alopecia-sickness-vector-46985290.webp 3x, https://cdn.vectorstock.com/i/preview-1x/52/90/set-of-people-suffering-from-alopecia-sickness-vector-46985290.webp 2x, https://cdn.vectorstock.com/i/preview-lt/52/90/set-of-people-suffering-from-alopecia-sickness-vector-46985290.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/52/90/set-of-people-suffering-from-alopecia-sickness-vector-46985290.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/52/90/set-of-people-suffering-from-alopecia-sickness-vector-46985290.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/52/90/set-of-people-suffering-from-alopecia-sickness-vector-46985290.jpg" data-id="46985290" data-title="set of people suffering from alopecia sickness" data-ratio="3" loading="lazy" alt="Set of people suffering from alopecia sickness vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/3d-isometric-flat-set-of-people-with-90s-vector-47207356">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/73/56/3d-isometric-flat-set-of-people-with-90s-vector-47207356.webp 2x, https://cdn.vectorstock.com/i/preview-1x/73/56/3d-isometric-flat-set-of-people-with-90s-vector-47207356.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/73/56/3d-isometric-flat-set-of-people-with-90s-vector-47207356.webp 3x, https://cdn.vectorstock.com/i/preview-1x/73/56/3d-isometric-flat-set-of-people-with-90s-vector-47207356.webp 2x, https://cdn.vectorstock.com/i/preview-lt/73/56/3d-isometric-flat-set-of-people-with-90s-vector-47207356.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/73/56/3d-isometric-flat-set-of-people-with-90s-vector-47207356.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/73/56/3d-isometric-flat-set-of-people-with-90s-vector-47207356.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/73/56/3d-isometric-flat-set-of-people-with-90s-vector-47207356.jpg" data-id="47207356" data-title="3d isometric flat set of people with 90s" data-ratio="2.5" loading="lazy" alt="3d isometric flat set of people with 90s vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/friends-characters-people-standing-together-vector-26889983">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/99/83/friends-characters-people-standing-together-vector-26889983.webp 2x, https://cdn.vectorstock.com/i/preview-1x/99/83/friends-characters-people-standing-together-vector-26889983.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/99/83/friends-characters-people-standing-together-vector-26889983.webp 3x, https://cdn.vectorstock.com/i/preview-1x/99/83/friends-characters-people-standing-together-vector-26889983.webp 2x, https://cdn.vectorstock.com/i/preview-lt/99/83/friends-characters-people-standing-together-vector-26889983.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/99/83/friends-characters-people-standing-together-vector-26889983.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/99/83/friends-characters-people-standing-together-vector-26889983.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/99/83/friends-characters-people-standing-together-vector-26889983.jpg" data-id="26889983" data-title="friends characters people standing together" data-ratio="3" loading="lazy" alt="Friends characters people standing together vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/young-people-stars-with-microphones-singing-vector-22937995">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/79/95/young-people-stars-with-microphones-singing-vector-22937995.webp 2x, https://cdn.vectorstock.com/i/preview-1x/79/95/young-people-stars-with-microphones-singing-vector-22937995.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/79/95/young-people-stars-with-microphones-singing-vector-22937995.webp 3x, https://cdn.vectorstock.com/i/preview-1x/79/95/young-people-stars-with-microphones-singing-vector-22937995.webp 2x, https://cdn.vectorstock.com/i/preview-lt/79/95/young-people-stars-with-microphones-singing-vector-22937995.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/79/95/young-people-stars-with-microphones-singing-vector-22937995.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/79/95/young-people-stars-with-microphones-singing-vector-22937995.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/79/95/young-people-stars-with-microphones-singing-vector-22937995.jpg" data-id="22937995" data-title="young people stars with microphones singing" data-ratio="2.72" loading="lazy" alt="Young people stars with microphones singing vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/group-of-young-dancing-people-isolated-on-white-vector-23581174">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/11/74/group-of-young-dancing-people-isolated-on-white-vector-23581174.webp 2x, https://cdn.vectorstock.com/i/preview-1x/11/74/group-of-young-dancing-people-isolated-on-white-vector-23581174.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/11/74/group-of-young-dancing-people-isolated-on-white-vector-23581174.webp 3x, https://cdn.vectorstock.com/i/preview-1x/11/74/group-of-young-dancing-people-isolated-on-white-vector-23581174.webp 2x, https://cdn.vectorstock.com/i/preview-lt/11/74/group-of-young-dancing-people-isolated-on-white-vector-23581174.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/11/74/group-of-young-dancing-people-isolated-on-white-vector-23581174.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/11/74/group-of-young-dancing-people-isolated-on-white-vector-23581174.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/11/74/group-of-young-dancing-people-isolated-on-white-vector-23581174.jpg" data-id="23581174" data-title="group of young dancing people isolated on white" data-ratio="2.336" loading="lazy" alt="Group of young dancing people isolated on white vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/set-chatting-people-vector-24011913">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/19/13/set-chatting-people-vector-24011913.webp 2x, https://cdn.vectorstock.com/i/preview-1x/19/13/set-chatting-people-vector-24011913.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/19/13/set-chatting-people-vector-24011913.webp 3x, https://cdn.vectorstock.com/i/preview-1x/19/13/set-chatting-people-vector-24011913.webp 2x, https://cdn.vectorstock.com/i/preview-lt/19/13/set-chatting-people-vector-24011913.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/19/13/set-chatting-people-vector-24011913.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/19/13/set-chatting-people-vector-24011913.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/19/13/set-chatting-people-vector-24011913.jpg" data-id="24011913" data-title="set chatting people" data-ratio="2.704" loading="lazy" alt="Set chatting people vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/set-women-dressed-in-stylish-trendy-clothes-vector-27847847">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/78/47/set-women-dressed-in-stylish-trendy-clothes-vector-27847847.webp 2x, https://cdn.vectorstock.com/i/preview-1x/78/47/set-women-dressed-in-stylish-trendy-clothes-vector-27847847.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/78/47/set-women-dressed-in-stylish-trendy-clothes-vector-27847847.webp 3x, https://cdn.vectorstock.com/i/preview-1x/78/47/set-women-dressed-in-stylish-trendy-clothes-vector-27847847.webp 2x, https://cdn.vectorstock.com/i/preview-lt/78/47/set-women-dressed-in-stylish-trendy-clothes-vector-27847847.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/78/47/set-women-dressed-in-stylish-trendy-clothes-vector-27847847.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/78/47/set-women-dressed-in-stylish-trendy-clothes-vector-27847847.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/78/47/set-women-dressed-in-stylish-trendy-clothes-vector-27847847.jpg" data-id="27847847" data-title="set women dressed in stylish trendy clothes" data-ratio="1.976" loading="lazy" alt="Set women dressed in stylish trendy clothes vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/amazing-show-laughing-people-cartoon-vector-12721672">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/16/72/amazing-show-laughing-people-cartoon-vector-12721672.webp 2x, https://cdn.vectorstock.com/i/preview-1x/16/72/amazing-show-laughing-people-cartoon-vector-12721672.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/16/72/amazing-show-laughing-people-cartoon-vector-12721672.webp 3x, https://cdn.vectorstock.com/i/preview-1x/16/72/amazing-show-laughing-people-cartoon-vector-12721672.webp 2x, https://cdn.vectorstock.com/i/preview-lt/16/72/amazing-show-laughing-people-cartoon-vector-12721672.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/16/72/amazing-show-laughing-people-cartoon-vector-12721672.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/16/72/amazing-show-laughing-people-cartoon-vector-12721672.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/16/72/amazing-show-laughing-people-cartoon-vector-12721672.jpg" data-id="12721672" data-title="amazing show laughing people cartoon" data-ratio="2.048" loading="lazy" alt="Amazing show laughing people cartoon vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/different-people-old-young-people-men-vector-25055601">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/56/01/different-people-old-young-people-men-vector-25055601.webp 2x, https://cdn.vectorstock.com/i/preview-1x/56/01/different-people-old-young-people-men-vector-25055601.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/56/01/different-people-old-young-people-men-vector-25055601.webp 3x, https://cdn.vectorstock.com/i/preview-1x/56/01/different-people-old-young-people-men-vector-25055601.webp 2x, https://cdn.vectorstock.com/i/preview-lt/56/01/different-people-old-young-people-men-vector-25055601.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/56/01/different-people-old-young-people-men-vector-25055601.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/56/01/different-people-old-young-people-men-vector-25055601.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/56/01/different-people-old-young-people-men-vector-25055601.jpg" data-id="25055601" data-title="different people old young people men" data-ratio="2.624" loading="lazy" alt="Different people old young people men vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/people-characters-various-activities-vector-23988064">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/80/64/people-characters-various-activities-vector-23988064.webp 2x, https://cdn.vectorstock.com/i/preview-1x/80/64/people-characters-various-activities-vector-23988064.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/80/64/people-characters-various-activities-vector-23988064.webp 3x, https://cdn.vectorstock.com/i/preview-1x/80/64/people-characters-various-activities-vector-23988064.webp 2x, https://cdn.vectorstock.com/i/preview-lt/80/64/people-characters-various-activities-vector-23988064.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/80/64/people-characters-various-activities-vector-23988064.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/80/64/people-characters-various-activities-vector-23988064.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/80/64/people-characters-various-activities-vector-23988064.jpg" data-id="23988064" data-title="people characters various activities" data-ratio="2.608" loading="lazy" alt="People characters various activities vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/celebration-party-people-flat-isolated-vector-27937773">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/77/73/celebration-party-people-flat-isolated-vector-27937773.webp 2x, https://cdn.vectorstock.com/i/preview-1x/77/73/celebration-party-people-flat-isolated-vector-27937773.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/77/73/celebration-party-people-flat-isolated-vector-27937773.webp 3x, https://cdn.vectorstock.com/i/preview-1x/77/73/celebration-party-people-flat-isolated-vector-27937773.webp 2x, https://cdn.vectorstock.com/i/preview-lt/77/73/celebration-party-people-flat-isolated-vector-27937773.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/77/73/celebration-party-people-flat-isolated-vector-27937773.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/77/73/celebration-party-people-flat-isolated-vector-27937773.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/77/73/celebration-party-people-flat-isolated-vector-27937773.jpg" data-id="27937773" data-title="celebration party people flat isolated" data-ratio="3" loading="lazy" alt="Celebration party people flat isolated vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/various-people-character-pose-urban-person-vector-23658070">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/80/70/various-people-character-pose-urban-person-vector-23658070.webp 2x, https://cdn.vectorstock.com/i/preview-1x/80/70/various-people-character-pose-urban-person-vector-23658070.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/80/70/various-people-character-pose-urban-person-vector-23658070.webp 3x, https://cdn.vectorstock.com/i/preview-1x/80/70/various-people-character-pose-urban-person-vector-23658070.webp 2x, https://cdn.vectorstock.com/i/preview-lt/80/70/various-people-character-pose-urban-person-vector-23658070.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/80/70/various-people-character-pose-urban-person-vector-23658070.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/80/70/various-people-character-pose-urban-person-vector-23658070.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/80/70/various-people-character-pose-urban-person-vector-23658070.jpg" data-id="23658070" data-title="various people character pose urban person" data-ratio="1.896" loading="lazy" alt="Various people character pose urban person vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/businesspeople-celebrating-event-colleagues-vector-26220419">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/04/19/businesspeople-celebrating-event-colleagues-vector-26220419.webp 2x, https://cdn.vectorstock.com/i/preview-1x/04/19/businesspeople-celebrating-event-colleagues-vector-26220419.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/04/19/businesspeople-celebrating-event-colleagues-vector-26220419.webp 3x, https://cdn.vectorstock.com/i/preview-1x/04/19/businesspeople-celebrating-event-colleagues-vector-26220419.webp 2x, https://cdn.vectorstock.com/i/preview-lt/04/19/businesspeople-celebrating-event-colleagues-vector-26220419.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/04/19/businesspeople-celebrating-event-colleagues-vector-26220419.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/04/19/businesspeople-celebrating-event-colleagues-vector-26220419.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/04/19/businesspeople-celebrating-event-colleagues-vector-26220419.jpg" data-id="26220419" data-title="businesspeople celebrating event colleagues" data-ratio="3" loading="lazy" alt="Businesspeople celebrating event colleagues vector">
+							</picture>
+						</a>
+					</div></figure>
+				</div>
+				<div class="gallery small more">
+					<ul>
+						<li data-id="26483443" data-title="young people with different emotions and gestures" data-src="https://cdn4.vectorstock.com/i/thumbs/34/43/young-people-with-different-emotions-and-gestures-vector-26483443.jpg"><a href="//www.vectorstock.com/royalty-free-vector/young-people-with-different-emotions-and-gestures-vector-26483443" title="young people with different emotions and gestures vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/34/43/young-people-with-different-emotions-and-gestures-vector-26483443.jpg" title="young people with different emotions and gestures" alt="young people with different emotions and gestures vector image"></noscript></a></li>
+						<li data-id="26196831" data-title="people celebrating summer" data-src="https://cdn2.vectorstock.com/i/thumbs/68/31/people-celebrating-summer-vector-26196831.jpg"><a href="//www.vectorstock.com/royalty-free-vector/people-celebrating-summer-vector-26196831" title="people celebrating summer vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/68/31/people-celebrating-summer-vector-26196831.jpg" title="people celebrating summer" alt="people celebrating summer vector image"></noscript></a></li>
+						<li data-id="27759287" data-title="group happy men" data-src="https://cdn3.vectorstock.com/i/thumbs/92/87/group-happy-men-vector-27759287.jpg"><a href="//www.vectorstock.com/royalty-free-vector/group-happy-men-vector-27759287" title="group happy men vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/92/87/group-happy-men-vector-27759287.jpg" title="group happy men" alt="group happy men vector image"></noscript></a></li>
+						<li data-id="24917012" data-title="young people standing in queue to get cash in atm" data-src="https://cdn3.vectorstock.com/i/thumbs/70/12/young-people-standing-in-queue-to-get-cash-in-atm-vector-24917012.jpg"><a href="//www.vectorstock.com/royalty-free-vector/young-people-standing-in-queue-to-get-cash-in-atm-vector-24917012" title="young people standing in queue to get cash in atm vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/70/12/young-people-standing-in-queue-to-get-cash-in-atm-vector-24917012.jpg" title="young people standing in queue to get cash in atm" alt="young people standing in queue to get cash in atm vector image"></noscript></a></li>
+						<li data-id="27007501" data-title="international womens day" data-src="https://cdn2.vectorstock.com/i/thumbs/75/01/international-womens-day-vector-27007501.jpg"><a href="//www.vectorstock.com/royalty-free-vector/international-womens-day-vector-27007501" title="international womens day vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/75/01/international-womens-day-vector-27007501.jpg" title="international womens day" alt="international womens day vector image"></noscript></a></li>
+						<li data-id="26736350" data-title="happy flying and jumping people characters" data-src="https://cdn1.vectorstock.com/i/thumbs/63/50/happy-flying-and-jumping-people-characters-vector-26736350.jpg"><a href="//www.vectorstock.com/royalty-free-vector/happy-flying-and-jumping-people-characters-vector-26736350" title="happy flying and jumping people characters vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/63/50/happy-flying-and-jumping-people-characters-vector-26736350.jpg" title="happy flying and jumping people characters" alt="happy flying and jumping people characters vector image"></noscript></a></li>
+						<li data-id="47296018" data-title="poses of young people set male and female" data-src="https://cdn4.vectorstock.com/i/thumbs/60/18/poses-of-young-people-set-male-and-female-vector-47296018.jpg"><a href="//www.vectorstock.com/royalty-free-vector/poses-of-young-people-set-male-and-female-vector-47296018" title="poses of young people set male and female vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/60/18/poses-of-young-people-set-male-and-female-vector-47296018.jpg" title="poses of young people set male and female" alt="poses of young people set male and female vector image"></noscript></a></li>
+						<li data-id="24049289" data-title="set of young girls with gestures and emotions" data-src="https://cdn5.vectorstock.com/i/thumbs/92/89/set-of-young-girls-with-gestures-and-emotions-vector-24049289.jpg"><a href="//www.vectorstock.com/royalty-free-vector/set-of-young-girls-with-gestures-and-emotions-vector-24049289" title="set of young girls with gestures and emotions vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/92/89/set-of-young-girls-with-gestures-and-emotions-vector-24049289.jpg" title="set of young girls with gestures and emotions" alt="set of young girls with gestures and emotions vector image"></noscript></a></li>
+						<li data-id="27873433" data-title="how to succeed in business people with prize web" data-src="https://cdn4.vectorstock.com/i/thumbs/34/33/how-to-succeed-in-business-people-with-prize-web-vector-27873433.jpg"><a href="//www.vectorstock.com/royalty-free-vector/how-to-succeed-in-business-people-with-prize-web-vector-27873433" title="how to succeed in business people with prize web vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/34/33/how-to-succeed-in-business-people-with-prize-web-vector-27873433.jpg" title="how to succeed in business people with prize web" alt="how to succeed in business people with prize web vector image"></noscript></a></li>
+						<li data-id="46544890" data-title="young people in casual clothes" data-src="https://cdn1.vectorstock.com/i/thumbs/48/90/young-people-in-casual-clothes-vector-46544890.jpg"><a href="//www.vectorstock.com/royalty-free-vector/young-people-in-casual-clothes-vector-46544890" title="young people in casual clothes vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/48/90/young-people-in-casual-clothes-vector-46544890.jpg" title="young people in casual clothes" alt="young people in casual clothes vector image"></noscript></a></li>
+						<li data-id="25696802" data-title="family walking together celebrations holidays" data-src="https://cdn3.vectorstock.com/i/thumbs/68/02/family-walking-together-celebrations-holidays-vector-25696802.jpg"><a href="//www.vectorstock.com/royalty-free-vector/family-walking-together-celebrations-holidays-vector-25696802" title="family walking together celebrations holidays vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/68/02/family-walking-together-celebrations-holidays-vector-25696802.jpg" title="family walking together celebrations holidays" alt="family walking together celebrations holidays vector image"></noscript></a></li>
+						<li data-id="21093139" data-title="set of business characters working in office" data-src="https://cdn5.vectorstock.com/i/thumbs/31/39/set-of-business-characters-working-in-office-vector-21093139.jpg"><a href="//www.vectorstock.com/royalty-free-vector/set-of-business-characters-working-in-office-vector-21093139" title="set of business characters working in office vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/31/39/set-of-business-characters-working-in-office-vector-21093139.jpg" title="set of business characters working in office" alt="set of business characters working in office vector image"></noscript></a></li>
+						<li data-id="26696315" data-title="labor day group people different" data-src="https://cdn1.vectorstock.com/i/thumbs/63/15/labor-day-group-people-different-vector-26696315.jpg"><a href="//www.vectorstock.com/royalty-free-vector/labor-day-group-people-different-vector-26696315" title="labor day group people different vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/63/15/labor-day-group-people-different-vector-26696315.jpg" title="labor day group people different" alt="labor day group people different vector image"></noscript></a></li>
+						<li data-id="27942531" data-title="group business people holding board" data-src="https://cdn2.vectorstock.com/i/thumbs/25/31/group-business-people-holding-board-vector-27942531.jpg"><a href="//www.vectorstock.com/royalty-free-vector/group-business-people-holding-board-vector-27942531" title="group business people holding board vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/25/31/group-business-people-holding-board-vector-27942531.jpg" title="group business people holding board" alt="group business people holding board vector image"></noscript></a></li>
+						<li data-id="28043158" data-title="communication" data-src="https://cdn4.vectorstock.com/i/thumbs/31/58/communication-vector-28043158.jpg"><a href="//www.vectorstock.com/royalty-free-vector/communication-vector-28043158" title="communication vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/31/58/communication-vector-28043158.jpg" title="communication" alt="communication vector image"></noscript></a></li>
+						<li data-id="22541101" data-title="various people men and women" data-src="https://cdn2.vectorstock.com/i/thumbs/11/01/various-people-men-and-women-vector-22541101.jpg"><a href="//www.vectorstock.com/royalty-free-vector/various-people-men-and-women-vector-22541101" title="various people men and women vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/11/01/various-people-men-and-women-vector-22541101.jpg" title="various people men and women" alt="various people men and women vector image"></noscript></a></li>
+						<li data-id="28027951" data-title="speaking men and women flat" data-src="https://cdn2.vectorstock.com/i/thumbs/79/51/speaking-men-and-women-flat-vector-28027951.jpg"><a href="//www.vectorstock.com/royalty-free-vector/speaking-men-and-women-flat-vector-28027951" title="speaking men and women flat vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/79/51/speaking-men-and-women-flat-vector-28027951.jpg" title="speaking men and women flat" alt="speaking men and women flat vector image"></noscript></a></li>
+						<li data-id="25043532" data-title="musician instruments people concert flat cartoon" data-src="https://cdn3.vectorstock.com/i/thumbs/35/32/musician-instruments-people-concert-flat-cartoon-vector-25043532.jpg"><a href="//www.vectorstock.com/royalty-free-vector/musician-instruments-people-concert-flat-cartoon-vector-25043532" title="musician instruments people concert flat cartoon vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/35/32/musician-instruments-people-concert-flat-cartoon-vector-25043532.jpg" title="musician instruments people concert flat cartoon" alt="musician instruments people concert flat cartoon vector image"></noscript></a></li>
+						<li data-id="27279765" data-title="protest people protester with empty banners" data-src="https://cdn1.vectorstock.com/i/thumbs/97/65/protest-people-protester-with-empty-banners-vector-27279765.jpg"><a href="//www.vectorstock.com/royalty-free-vector/protest-people-protester-with-empty-banners-vector-27279765" title="protest people protester with empty banners vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/97/65/protest-people-protester-with-empty-banners-vector-27279765.jpg" title="protest people protester with empty banners" alt="protest people protester with empty banners vector image"></noscript></a></li>
+						<li data-id="27114887" data-title="auto car mechanics standing together and talking" data-src="https://cdn3.vectorstock.com/i/thumbs/48/87/auto-car-mechanics-standing-together-and-talking-vector-27114887.jpg"><a href="//www.vectorstock.com/royalty-free-vector/auto-car-mechanics-standing-together-and-talking-vector-27114887" title="auto car mechanics standing together and talking vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/48/87/auto-car-mechanics-standing-together-and-talking-vector-27114887.jpg" title="auto car mechanics standing together and talking" alt="auto car mechanics standing together and talking vector image"></noscript></a></li>
+						<li data-id="21008162" data-title="cheerful businessman - cartoon people" data-src="https://cdn3.vectorstock.com/i/thumbs/81/62/cheerful-businessman-cartoon-people-vector-21008162.jpg"><a href="//www.vectorstock.com/royalty-free-vector/cheerful-businessman-cartoon-people-vector-21008162" title="cheerful businessman - cartoon people vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/81/62/cheerful-businessman-cartoon-people-vector-21008162.jpg" title="cheerful businessman - cartoon people" alt="cheerful businessman - cartoon people vector image"></noscript></a></li>
+						<li data-id="13815300" data-title="queue different people in grocery store crowd" data-src="https://cdn1.vectorstock.com/i/thumbs/53/00/queue-different-people-in-grocery-store-crowd-vector-13815300.jpg"><a href="//www.vectorstock.com/royalty-free-vector/queue-different-people-in-grocery-store-crowd-vector-13815300" title="queue different people in grocery store crowd vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/53/00/queue-different-people-in-grocery-store-crowd-vector-13815300.jpg" title="queue different people in grocery store crowd" alt="queue different people in grocery store crowd vector image"></noscript></a></li>
+						<li data-id="23406200" data-title="crowd of people with placards on demonstration" data-src="https://cdn1.vectorstock.com/i/thumbs/62/00/crowd-of-people-with-placards-on-demonstration-vector-23406200.jpg"><a href="//www.vectorstock.com/royalty-free-vector/crowd-of-people-with-placards-on-demonstration-vector-23406200" title="crowd of people with placards on demonstration vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/62/00/crowd-of-people-with-placards-on-demonstration-vector-23406200.jpg" title="crowd of people with placards on demonstration" alt="crowd of people with placards on demonstration vector image"></noscript></a></li>
+						<li data-id="42073438" data-title="fashionable men and women in casual clothes say" data-src="https://cdn4.vectorstock.com/i/thumbs/34/38/fashionable-men-and-women-in-casual-clothes-say-vector-42073438.jpg"><a href="//www.vectorstock.com/royalty-free-vector/fashionable-men-and-women-in-casual-clothes-say-vector-42073438" title="fashionable men and women in casual clothes say vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/34/38/fashionable-men-and-women-in-casual-clothes-say-vector-42073438.jpg" title="fashionable men and women in casual clothes say" alt="fashionable men and women in casual clothes say vector image"></noscript></a></li>
+						<li data-id="46682818" data-title="set of people with hello banners in hand waiting" data-src="https://cdn4.vectorstock.com/i/thumbs/28/18/set-of-people-with-hello-banners-in-hand-waiting-vector-46682818.jpg"><a href="//www.vectorstock.com/royalty-free-vector/set-of-people-with-hello-banners-in-hand-waiting-vector-46682818" title="set of people with hello banners in hand waiting vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/28/18/set-of-people-with-hello-banners-in-hand-waiting-vector-46682818.jpg" title="set of people with hello banners in hand waiting" alt="set of people with hello banners in hand waiting vector image"></noscript></a></li>
+						<li data-id="23216913" data-title="dancing people silhouette" data-src="https://cdn4.vectorstock.com/i/thumbs/69/13/dancing-people-silhouette-vector-23216913.jpg"><a href="//www.vectorstock.com/royalty-free-vector/dancing-people-silhouette-vector-23216913" title="dancing people silhouette vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/69/13/dancing-people-silhouette-vector-23216913.jpg" title="dancing people silhouette" alt="dancing people silhouette vector image"></noscript></a></li>
+						<li data-id="46635671" data-title="family people scene people of all ages and a dog" data-src="https://cdn2.vectorstock.com/i/thumbs/56/71/family-people-scene-people-of-all-ages-and-a-dog-vector-46635671.jpg"><a href="//www.vectorstock.com/royalty-free-vector/family-people-scene-people-of-all-ages-and-a-dog-vector-46635671" title="family people scene people of all ages and a dog vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/56/71/family-people-scene-people-of-all-ages-and-a-dog-vector-46635671.jpg" title="family people scene people of all ages and a dog" alt="family people scene people of all ages and a dog vector image"></noscript></a></li>
+						<li data-id="24908750" data-title="set a crowd people characters go about" data-src="https://cdn1.vectorstock.com/i/thumbs/87/50/set-a-crowd-people-characters-go-about-vector-24908750.jpg"><a href="//www.vectorstock.com/royalty-free-vector/set-a-crowd-people-characters-go-about-vector-24908750" title="set a crowd people characters go about vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/87/50/set-a-crowd-people-characters-go-about-vector-24908750.jpg" title="set a crowd people characters go about" alt="set a crowd people characters go about vector image"></noscript></a></li>
+						<li data-id="47116639" data-title="business people isometric walking office workers" data-src="https://cdn5.vectorstock.com/i/thumbs/66/39/business-people-isometric-walking-office-workers-vector-47116639.jpg"><a href="//www.vectorstock.com/royalty-free-vector/business-people-isometric-walking-office-workers-vector-47116639" title="business people isometric walking office workers vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/66/39/business-people-isometric-walking-office-workers-vector-47116639.jpg" title="business people isometric walking office workers" alt="business people isometric walking office workers vector image"></noscript></a></li>
+						<li data-id="46976569" data-title="amazed surprised people with excited reaction" data-src="https://cdn5.vectorstock.com/i/thumbs/65/69/amazed-surprised-people-with-excited-reaction-vector-46976569.jpg"><a href="//www.vectorstock.com/royalty-free-vector/amazed-surprised-people-with-excited-reaction-vector-46976569" title="amazed surprised people with excited reaction vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/65/69/amazed-surprised-people-with-excited-reaction-vector-46976569.jpg" title="amazed surprised people with excited reaction" alt="amazed surprised people with excited reaction vector image"></noscript></a></li>
+						<li class="more"><div><a href="/royalty-free-vectors/vectors-similar-to_26439748" rel="nofollow"><span class="lrg">More Images&hellip;</span><span class="sml">More</span></a></div></li>
+					</ul>
+				</div>
+			</div>
+			<div id="group-artist" class="group">
+				<h6><span class="icon"></span><strong>More by <a href="/royalty-free-vectors/vectors-by_Tartila" rel="nofollow">Tartila</a></strong></h6>
+
+				<div class="gallery_mosaic">
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/international-kids-say-hello-diversity-school-vector-37602009">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/20/09/international-kids-say-hello-diversity-school-vector-37602009.webp 2x, https://cdn.vectorstock.com/i/preview-1x/20/09/international-kids-say-hello-diversity-school-vector-37602009.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/20/09/international-kids-say-hello-diversity-school-vector-37602009.webp 3x, https://cdn.vectorstock.com/i/preview-1x/20/09/international-kids-say-hello-diversity-school-vector-37602009.webp 2x, https://cdn.vectorstock.com/i/preview-lt/20/09/international-kids-say-hello-diversity-school-vector-37602009.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/20/09/international-kids-say-hello-diversity-school-vector-37602009.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/20/09/international-kids-say-hello-diversity-school-vector-37602009.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/20/09/international-kids-say-hello-diversity-school-vector-37602009.jpg" data-id="37602009" data-title="international kids say hello diversity school" data-ratio="1.696" loading="lazy" alt="International kids say hello diversity school vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/cartoon-happy-multicultural-children-waving-hello-vector-39798095">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/80/95/cartoon-happy-multicultural-children-waving-hello-vector-39798095.webp 2x, https://cdn.vectorstock.com/i/preview-1x/80/95/cartoon-happy-multicultural-children-waving-hello-vector-39798095.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/80/95/cartoon-happy-multicultural-children-waving-hello-vector-39798095.webp 3x, https://cdn.vectorstock.com/i/preview-1x/80/95/cartoon-happy-multicultural-children-waving-hello-vector-39798095.webp 2x, https://cdn.vectorstock.com/i/preview-lt/80/95/cartoon-happy-multicultural-children-waving-hello-vector-39798095.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/80/95/cartoon-happy-multicultural-children-waving-hello-vector-39798095.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/80/95/cartoon-happy-multicultural-children-waving-hello-vector-39798095.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/80/95/cartoon-happy-multicultural-children-waving-hello-vector-39798095.jpg" data-id="39798095" data-title="cartoon happy multicultural children waving hello" data-ratio="1.332" loading="lazy" alt="Cartoon happy multicultural children waving hello vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/video-bloggers-young-girl-on-desktop-computer-vector-42818362">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/83/62/video-bloggers-young-girl-on-desktop-computer-vector-42818362.webp 2x, https://cdn.vectorstock.com/i/preview-1x/83/62/video-bloggers-young-girl-on-desktop-computer-vector-42818362.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/83/62/video-bloggers-young-girl-on-desktop-computer-vector-42818362.webp 3x, https://cdn.vectorstock.com/i/preview-1x/83/62/video-bloggers-young-girl-on-desktop-computer-vector-42818362.webp 2x, https://cdn.vectorstock.com/i/preview-lt/83/62/video-bloggers-young-girl-on-desktop-computer-vector-42818362.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/83/62/video-bloggers-young-girl-on-desktop-computer-vector-42818362.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/83/62/video-bloggers-young-girl-on-desktop-computer-vector-42818362.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/83/62/video-bloggers-young-girl-on-desktop-computer-vector-42818362.jpg" data-id="42818362" data-title="video bloggers young girl on desktop computer" data-ratio="1.288" loading="lazy" alt="Video bloggers young girl on desktop computer vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/cartoon-children-hello-by-waving-hands-different-vector-43533633">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/36/33/cartoon-children-hello-by-waving-hands-different-vector-43533633.webp 2x, https://cdn.vectorstock.com/i/preview-1x/36/33/cartoon-children-hello-by-waving-hands-different-vector-43533633.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/36/33/cartoon-children-hello-by-waving-hands-different-vector-43533633.webp 3x, https://cdn.vectorstock.com/i/preview-1x/36/33/cartoon-children-hello-by-waving-hands-different-vector-43533633.webp 2x, https://cdn.vectorstock.com/i/preview-lt/36/33/cartoon-children-hello-by-waving-hands-different-vector-43533633.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/36/33/cartoon-children-hello-by-waving-hands-different-vector-43533633.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/36/33/cartoon-children-hello-by-waving-hands-different-vector-43533633.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/36/33/cartoon-children-hello-by-waving-hands-different-vector-43533633.jpg" data-id="43533633" data-title="cartoon children hello by waving hands different" data-ratio="1" loading="lazy" alt="Cartoon children hello by waving hands different vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/cartoon-children-multiethnic-characters-hello-vector-39869154">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/91/54/cartoon-children-multiethnic-characters-hello-vector-39869154.webp 2x, https://cdn.vectorstock.com/i/preview-1x/91/54/cartoon-children-multiethnic-characters-hello-vector-39869154.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/91/54/cartoon-children-multiethnic-characters-hello-vector-39869154.webp 3x, https://cdn.vectorstock.com/i/preview-1x/91/54/cartoon-children-multiethnic-characters-hello-vector-39869154.webp 2x, https://cdn.vectorstock.com/i/preview-lt/91/54/cartoon-children-multiethnic-characters-hello-vector-39869154.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/91/54/cartoon-children-multiethnic-characters-hello-vector-39869154.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/91/54/cartoon-children-multiethnic-characters-hello-vector-39869154.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/91/54/cartoon-children-multiethnic-characters-hello-vector-39869154.jpg" data-id="39869154" data-title="cartoon children multiethnic characters hello" data-ratio="1.556" loading="lazy" alt="Cartoon children multiethnic characters hello vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/happy-diverse-kids-characters-waving-hands-vector-39844460">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/44/60/happy-diverse-kids-characters-waving-hands-vector-39844460.webp 2x, https://cdn.vectorstock.com/i/preview-1x/44/60/happy-diverse-kids-characters-waving-hands-vector-39844460.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/44/60/happy-diverse-kids-characters-waving-hands-vector-39844460.webp 3x, https://cdn.vectorstock.com/i/preview-1x/44/60/happy-diverse-kids-characters-waving-hands-vector-39844460.webp 2x, https://cdn.vectorstock.com/i/preview-lt/44/60/happy-diverse-kids-characters-waving-hands-vector-39844460.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/44/60/happy-diverse-kids-characters-waving-hands-vector-39844460.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/44/60/happy-diverse-kids-characters-waving-hands-vector-39844460.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/44/60/happy-diverse-kids-characters-waving-hands-vector-39844460.jpg" data-id="39844460" data-title="happy diverse kids characters waving hands" data-ratio="1.332" loading="lazy" alt="Happy diverse kids characters waving hands vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/characters-with-greeting-gestures-people-greet-vector-35948121">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/81/21/characters-with-greeting-gestures-people-greet-vector-35948121.webp 2x, https://cdn.vectorstock.com/i/preview-1x/81/21/characters-with-greeting-gestures-people-greet-vector-35948121.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/81/21/characters-with-greeting-gestures-people-greet-vector-35948121.webp 3x, https://cdn.vectorstock.com/i/preview-1x/81/21/characters-with-greeting-gestures-people-greet-vector-35948121.webp 2x, https://cdn.vectorstock.com/i/preview-lt/81/21/characters-with-greeting-gestures-people-greet-vector-35948121.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/81/21/characters-with-greeting-gestures-people-greet-vector-35948121.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/81/21/characters-with-greeting-gestures-people-greet-vector-35948121.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/81/21/characters-with-greeting-gestures-people-greet-vector-35948121.jpg" data-id="35948121" data-title="characters with greeting gestures people greet" data-ratio="1.5" loading="lazy" alt="Characters with greeting gestures people greet vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/cartoon-kindergarten-multicultural-kid-friends-vector-39869157">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/91/57/cartoon-kindergarten-multicultural-kid-friends-vector-39869157.webp 2x, https://cdn.vectorstock.com/i/preview-1x/91/57/cartoon-kindergarten-multicultural-kid-friends-vector-39869157.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/91/57/cartoon-kindergarten-multicultural-kid-friends-vector-39869157.webp 3x, https://cdn.vectorstock.com/i/preview-1x/91/57/cartoon-kindergarten-multicultural-kid-friends-vector-39869157.webp 2x, https://cdn.vectorstock.com/i/preview-lt/91/57/cartoon-kindergarten-multicultural-kid-friends-vector-39869157.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/91/57/cartoon-kindergarten-multicultural-kid-friends-vector-39869157.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/91/57/cartoon-kindergarten-multicultural-kid-friends-vector-39869157.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/91/57/cartoon-kindergarten-multicultural-kid-friends-vector-39869157.jpg" data-id="39869157" data-title="cartoon kindergarten multicultural kid friends" data-ratio="2.668" loading="lazy" alt="Cartoon kindergarten multicultural kid friends vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/hello-autumn-happy-people-walk-in-public-park-vector-33899112">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/91/12/hello-autumn-happy-people-walk-in-public-park-vector-33899112.webp 2x, https://cdn.vectorstock.com/i/preview-1x/91/12/hello-autumn-happy-people-walk-in-public-park-vector-33899112.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/91/12/hello-autumn-happy-people-walk-in-public-park-vector-33899112.webp 3x, https://cdn.vectorstock.com/i/preview-1x/91/12/hello-autumn-happy-people-walk-in-public-park-vector-33899112.webp 2x, https://cdn.vectorstock.com/i/preview-lt/91/12/hello-autumn-happy-people-walk-in-public-park-vector-33899112.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/91/12/hello-autumn-happy-people-walk-in-public-park-vector-33899112.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/91/12/hello-autumn-happy-people-walk-in-public-park-vector-33899112.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/91/12/hello-autumn-happy-people-walk-in-public-park-vector-33899112.jpg" data-id="33899112" data-title="hello autumn happy people walk in public park" data-ratio="1.688" loading="lazy" alt="Hello autumn happy people walk in public park vector">
+							</picture>
+						</a>
+					</div></figure>
+					<figure><div class="inner">
+						<a href="https://www.vectorstock.com/royalty-free-vector/pixel-speech-bubbles-video-game-talk-balloon-vector-24942112">
+							<picture>
+								<source type="image/webp" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/21/12/pixel-speech-bubbles-video-game-talk-balloon-vector-24942112.webp 2x, https://cdn.vectorstock.com/i/preview-1x/21/12/pixel-speech-bubbles-video-game-talk-balloon-vector-24942112.webp 1.5x">
+								<source type="image/webp" srcset="https://cdn.vectorstock.com/i/preview-2x/21/12/pixel-speech-bubbles-video-game-talk-balloon-vector-24942112.webp 3x, https://cdn.vectorstock.com/i/preview-1x/21/12/pixel-speech-bubbles-video-game-talk-balloon-vector-24942112.webp 2x, https://cdn.vectorstock.com/i/preview-lt/21/12/pixel-speech-bubbles-video-game-talk-balloon-vector-24942112.webp 1x">
+								<source type="image/jpeg" media="(min-width: 1047px)" srcset="https://cdn.vectorstock.com/i/preview-2x/21/12/pixel-speech-bubbles-video-game-talk-balloon-vector-24942112.jpg 2x, https://cdn.vectorstock.com/i/preview-1x/21/12/pixel-speech-bubbles-video-game-talk-balloon-vector-24942112.jpg 1.5x">
+								<img src="https://cdn.vectorstock.com/i/preview-1x/21/12/pixel-speech-bubbles-video-game-talk-balloon-vector-24942112.jpg" data-id="24942112" data-title="pixel speech bubbles video game talk balloon" data-ratio="1" loading="lazy" alt="Pixel speech bubbles video game talk balloon vector">
+							</picture>
+						</a>
+					</div></figure>
+				</div>
+				<div class="gallery small more">
+					<ul>
+						<li data-id="21611426" data-title="primary school kids cartoon children pupils" data-src="https://cdn2.vectorstock.com/i/thumbs/14/26/primary-school-kids-cartoon-children-pupils-vector-21611426.jpg"><a href="//www.vectorstock.com/royalty-free-vector/primary-school-kids-cartoon-children-pupils-vector-21611426" title="primary school kids cartoon children pupils vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/14/26/primary-school-kids-cartoon-children-pupils-vector-21611426.jpg" title="primary school kids cartoon children pupils" alt="primary school kids cartoon children pupils vector image vector image"></noscript></a></li>
+						<li data-id="23019398" data-title="stop school bullying aggressive teen bully" data-src="https://cdn4.vectorstock.com/i/thumbs/93/98/stop-school-bullying-aggressive-teen-bully-vector-23019398.jpg"><a href="//www.vectorstock.com/royalty-free-vector/stop-school-bullying-aggressive-teen-bully-vector-23019398" title="stop school bullying aggressive teen bully vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/93/98/stop-school-bullying-aggressive-teen-bully-vector-23019398.jpg" title="stop school bullying aggressive teen bully" alt="stop school bullying aggressive teen bully vector image vector image"></noscript></a></li>
+						<li data-id="34332375" data-title="people eat men and women eating delicious meals" data-src="https://cdn1.vectorstock.com/i/thumbs/23/75/people-eat-men-and-women-eating-delicious-meals-vector-34332375.jpg"><a href="//www.vectorstock.com/royalty-free-vector/people-eat-men-and-women-eating-delicious-meals-vector-34332375" title="people eat men and women eating delicious meals vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/23/75/people-eat-men-and-women-eating-delicious-meals-vector-34332375.jpg" title="people eat men and women eating delicious meals" alt="people eat men and women eating delicious meals vector image vector image"></noscript></a></li>
+						<li data-id="35265023" data-title="silhouette social diversity people diverse" data-src="https://cdn4.vectorstock.com/i/thumbs/50/23/silhouette-social-diversity-people-diverse-vector-35265023.jpg"><a href="//www.vectorstock.com/royalty-free-vector/silhouette-social-diversity-people-diverse-vector-35265023" title="silhouette social diversity people diverse vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/50/23/silhouette-social-diversity-people-diverse-vector-35265023.jpg" title="silhouette social diversity people diverse" alt="silhouette social diversity people diverse vector image vector image"></noscript></a></li>
+						<li data-id="43660522" data-title="men and women eating cartoon persons sitting" data-src="https://cdn3.vectorstock.com/i/thumbs/05/22/men-and-women-eating-cartoon-persons-sitting-vector-43660522.jpg"><a href="//www.vectorstock.com/royalty-free-vector/men-and-women-eating-cartoon-persons-sitting-vector-43660522" title="men and women eating cartoon persons sitting vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/05/22/men-and-women-eating-cartoon-persons-sitting-vector-43660522.jpg" title="men and women eating cartoon persons sitting" alt="men and women eating cartoon persons sitting vector image vector image"></noscript></a></li>
+						<li data-id="23349087" data-title="kids read book happy kid reading books girl" data-src="https://cdn3.vectorstock.com/i/thumbs/90/87/kids-read-book-happy-kid-reading-books-girl-vector-23349087.jpg"><a href="//www.vectorstock.com/royalty-free-vector/kids-read-book-happy-kid-reading-books-girl-vector-23349087" title="kids read book happy kid reading books girl vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/90/87/kids-read-book-happy-kid-reading-books-girl-vector-23349087.jpg" title="kids read book happy kid reading books girl" alt="kids read book happy kid reading books girl vector image vector image"></noscript></a></li>
+						<li data-id="26720607" data-title="cartoon kids in professional uniform doctor" data-src="https://cdn3.vectorstock.com/i/thumbs/06/07/cartoon-kids-in-professional-uniform-doctor-vector-26720607.jpg"><a href="//www.vectorstock.com/royalty-free-vector/cartoon-kids-in-professional-uniform-doctor-vector-26720607" title="cartoon kids in professional uniform doctor vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/06/07/cartoon-kids-in-professional-uniform-doctor-vector-26720607.jpg" title="cartoon kids in professional uniform doctor" alt="cartoon kids in professional uniform doctor vector image vector image"></noscript></a></li>
+						<li data-id="23494265" data-title="lady sleeping at night woman sleep in bed under" data-src="https://cdn1.vectorstock.com/i/thumbs/42/65/lady-sleeping-at-night-woman-sleep-in-bed-under-vector-23494265.jpg"><a href="//www.vectorstock.com/royalty-free-vector/lady-sleeping-at-night-woman-sleep-in-bed-under-vector-23494265" title="lady sleeping at night woman sleep in bed under vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/42/65/lady-sleeping-at-night-woman-sleep-in-bed-under-vector-23494265.jpg" title="lady sleeping at night woman sleep in bed under" alt="lady sleeping at night woman sleep in bed under vector image vector image"></noscript></a></li>
+						<li data-id="33163272" data-title="cartoon female character kit woman casual clothes" data-src="https://cdn3.vectorstock.com/i/thumbs/32/72/cartoon-female-character-kit-woman-casual-clothes-vector-33163272.jpg"><a href="//www.vectorstock.com/royalty-free-vector/cartoon-female-character-kit-woman-casual-clothes-vector-33163272" title="cartoon female character kit woman casual clothes vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/32/72/cartoon-female-character-kit-woman-casual-clothes-vector-33163272.jpg" title="cartoon female character kit woman casual clothes" alt="cartoon female character kit woman casual clothes vector image vector image"></noscript></a></li>
+						<li data-id="23111166" data-title="graduate students graduation day of university" data-src="https://cdn2.vectorstock.com/i/thumbs/11/66/graduate-students-graduation-day-of-university-vector-23111166.jpg"><a href="//www.vectorstock.com/royalty-free-vector/graduate-students-graduation-day-of-university-vector-23111166" title="graduate students graduation day of university vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/11/66/graduate-students-graduation-day-of-university-vector-23111166.jpg" title="graduate students graduation day of university" alt="graduate students graduation day of university vector image vector image"></noscript></a></li>
+						<li data-id="36714790" data-title="people walk flat characters walking with dog" data-src="https://cdn1.vectorstock.com/i/thumbs/47/90/people-walk-flat-characters-walking-with-dog-vector-36714790.jpg"><a href="//www.vectorstock.com/royalty-free-vector/people-walk-flat-characters-walking-with-dog-vector-36714790" title="people walk flat characters walking with dog vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/47/90/people-walk-flat-characters-walking-with-dog-vector-36714790.jpg" title="people walk flat characters walking with dog" alt="people walk flat characters walking with dog vector image vector image"></noscript></a></li>
+						<li data-id="21611423" data-title="group teen pupils school boys and girls teens" data-src="https://cdn4.vectorstock.com/i/thumbs/14/23/group-teen-pupils-school-boys-and-girls-teens-vector-21611423.jpg"><a href="//www.vectorstock.com/royalty-free-vector/group-teen-pupils-school-boys-and-girls-teens-vector-21611423" title="group teen pupils school boys and girls teens vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/14/23/group-teen-pupils-school-boys-and-girls-teens-vector-21611423.jpg" title="group teen pupils school boys and girls teens" alt="group teen pupils school boys and girls teens vector image vector image"></noscript></a></li>
+						<li data-id="21144921" data-title="female and male faces silhouettes in vintage cameo" data-src="https://cdn2.vectorstock.com/i/thumbs/49/21/female-and-male-faces-silhouettes-in-vintage-cameo-vector-21144921.jpg"><a href="//www.vectorstock.com/royalty-free-vector/female-and-male-faces-silhouettes-in-vintage-cameo-vector-21144921" title="female and male faces silhouettes in vintage cameo vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/49/21/female-and-male-faces-silhouettes-in-vintage-cameo-vector-21144921.jpg" title="female and male faces silhouettes in vintage cameo" alt="female and male faces silhouettes in vintage cameo vector image vector image"></noscript></a></li>
+						<li data-id="29385812" data-title="park marathon people running outdoor joggers" data-src="https://cdn3.vectorstock.com/i/thumbs/58/12/park-marathon-people-running-outdoor-joggers-vector-29385812.jpg"><a href="//www.vectorstock.com/royalty-free-vector/park-marathon-people-running-outdoor-joggers-vector-29385812" title="park marathon people running outdoor joggers vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/58/12/park-marathon-people-running-outdoor-joggers-vector-29385812.jpg" title="park marathon people running outdoor joggers" alt="park marathon people running outdoor joggers vector image vector image"></noscript></a></li>
+						<li data-id="21386727" data-title="cartoon fairies characters fairy creatures" data-src="https://cdn3.vectorstock.com/i/thumbs/67/27/cartoon-fairies-characters-fairy-creatures-vector-21386727.jpg"><a href="//www.vectorstock.com/royalty-free-vector/cartoon-fairies-characters-fairy-creatures-vector-21386727" title="cartoon fairies characters fairy creatures vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/67/27/cartoon-fairies-characters-fairy-creatures-vector-21386727.jpg" title="cartoon fairies characters fairy creatures" alt="cartoon fairies characters fairy creatures vector image vector image"></noscript></a></li>
+						<li data-id="44873617" data-title="swimming pool party young people spending time" data-src="https://cdn3.vectorstock.com/i/thumbs/36/17/swimming-pool-party-young-people-spending-time-vector-44873617.jpg"><a href="//www.vectorstock.com/royalty-free-vector/swimming-pool-party-young-people-spending-time-vector-44873617" title="swimming pool party young people spending time vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/36/17/swimming-pool-party-young-people-spending-time-vector-44873617.jpg" title="swimming pool party young people spending time" alt="swimming pool party young people spending time vector image vector image"></noscript></a></li>
+						<li data-id="21386723" data-title="superhero family characters superheroes character" data-src="https://cdn4.vectorstock.com/i/thumbs/67/23/superhero-family-characters-superheroes-character-vector-21386723.jpg"><a href="//www.vectorstock.com/royalty-free-vector/superhero-family-characters-superheroes-character-vector-21386723" title="superhero family characters superheroes character vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/67/23/superhero-family-characters-superheroes-character-vector-21386723.jpg" title="superhero family characters superheroes character" alt="superhero family characters superheroes character vector image vector image"></noscript></a></li>
+						<li data-id="33823251" data-title="manga expression anime girl facial expressions" data-src="https://cdn2.vectorstock.com/i/thumbs/32/51/manga-expression-anime-girl-facial-expressions-vector-33823251.jpg"><a href="//www.vectorstock.com/royalty-free-vector/manga-expression-anime-girl-facial-expressions-vector-33823251" title="manga expression anime girl facial expressions vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/32/51/manga-expression-anime-girl-facial-expressions-vector-33823251.jpg" title="manga expression anime girl facial expressions" alt="manga expression anime girl facial expressions vector image vector image"></noscript></a></li>
+						<li data-id="21611420" data-title="teenagers students group young teens highschool" data-src="https://cdn1.vectorstock.com/i/thumbs/14/20/teenagers-students-group-young-teens-highschool-vector-21611420.jpg"><a href="//www.vectorstock.com/royalty-free-vector/teenagers-students-group-young-teens-highschool-vector-21611420" title="teenagers students group young teens highschool vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/14/20/teenagers-students-group-young-teens-highschool-vector-21611420.jpg" title="teenagers students group young teens highschool" alt="teenagers students group young teens highschool vector image vector image"></noscript></a></li>
+						<li data-id="27402327" data-title="cartoon family creation kit parents children" data-src="https://cdn3.vectorstock.com/i/thumbs/23/27/cartoon-family-creation-kit-parents-children-vector-27402327.jpg"><a href="//www.vectorstock.com/royalty-free-vector/cartoon-family-creation-kit-parents-children-vector-27402327" title="cartoon family creation kit parents children vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/23/27/cartoon-family-creation-kit-parents-children-vector-27402327.jpg" title="cartoon family creation kit parents children" alt="cartoon family creation kit parents children vector image vector image"></noscript></a></li>
+						<li class="more"><div><a href="/royalty-free-vectors/vectors-by_Tartila" rel="nofollow"><span class="lrg">More Images&hellip;</span><span class="sml">More</span></a></div></li>
+					</ul>
+				</div>
+			</div>
+			<div id="group-keywords" class="group">
+				<h6><span class="icon"></span><strong>Related Searches</strong></h6>
+				<ul>
+					<li><a href="/royalty-free-vectors/people-vectors">People</a></li>
+					<li><a href="/royalty-free-vectors/hello-vectors">Hello</a></li>
+					<li><a href="/royalty-free-vectors/different-vectors">Different</a></li>
+					<li><a href="/royalty-free-vectors/say-vectors">Say</a></li>
+					<li><a href="/royalty-free-vectors/language-vectors">Language</a></li>
+					<li><a href="/royalty-free-vectors/languages-vectors">Languages</a></li>
+					<li><a href="/royalty-free-vectors/girl-vectors">Girl</a></li>
+					<li><a href="/royalty-free-vectors/person-vectors">Person</a></li>
+					<li><a href="/royalty-free-vectors/hi-vectors">Hi</a></li>
+					<li><a href="/royalty-free-vectors/easy-vectors">Easy</a></li>
+					<li><a href="/royalty-free-vectors/greeting-vectors">Greeting</a></li>
+					<li><a href="/royalty-free-vectors/speaking-vectors">Speaking</a></li>
+					<li><a href="/royalty-free-vectors/learning-vectors">Learning</a></li>
+					<li><a href="/royalty-free-vectors/going-vectors">Going</a></li>
+					<li><a href="/royalty-free-vectors/happy-vectors">Happy</a></li>
+					<li><a href="/royalty-free-vectors/student-vectors">Student</a></li>
+					<li><a href="/royalty-free-vectors/cute-vectors">Cute</a></li>
+					<li><a href="/royalty-free-vectors/greetings-vectors">Greetings</a></li>
+					<li><a href="/royalty-free-vectors/body-vectors">Body</a></li>
+					<li><a href="/royalty-free-vectors/foreign-vectors">Foreign</a></li>
+					<li><a href="/royalty-free-vectors/boy-vectors">Boy</a></li>
+					<li><a href="/royalty-free-vectors/man-vectors">Man</a></li>
+					<li><a href="/royalty-free-vectors/speak-vectors">Speak</a></li>
+					<li><a href="/royalty-free-vectors/french-vectors">French</a></li>
+					<li><a href="/royalty-free-vectors/word-vectors">Word</a></li>
+					<li><a href="/royalty-free-vectors/spanish-vectors">Spanish</a></li>
+					<li><a href="/royalty-free-vectors/international-vectors">International</a></li>
+					<li><a href="/royalty-free-vectors/diverse-vectors">Diverse</a></li>
+					<li><a href="/royalty-free-vectors/guy-vectors">Guy</a></li>
+					<li><a href="/royalty-free-vectors/school-vectors">School</a></li>
+					<li><a href="/royalty-free-vectors/bubble-vectors">Bubble</a></li>
+					<li><a href="/royalty-free-vectors/woman-vectors">Woman</a></li>
+					<li><a href="/royalty-free-vectors/speech-vectors">Speech</a></li>
+					<li><a href="/royalty-free-vectors/young-vectors">Young</a></li>
+					<li><a href="/royalty-free-vectors/style-vectors">Style</a></li>
+					<li><a href="/royalty-free-vectors/talk-vectors">Talk</a></li>
+					<li><a href="/royalty-free-vectors/female-vectors">Female</a></li>
+					<li><a href="/royalty-free-vectors/communication-vectors">Communication</a></li>
+					<li><a href="/royalty-free-vectors/human-vectors">Human</a></li>
+					<li><a href="/royalty-free-vectors/character-vectors">Character</a></li>
+					<li><a href="/royalty-free-vectors/education-vectors">Education</a></li>
+					<li><a href="/royalty-free-vectors/vector-vectors">Vector</a></li>
+					<li><a href="/royalty-free-vectors/illustration-vectors">Illustration</a></li>
+					<li><a href="/royalty-free-vectors/smile-vectors">Smile</a></li>
+					<li><a href="/royalty-free-vectors/gesture-vectors">Gesture</a></li>
+					<li><a href="/royalty-free-vectors/wave-vectors">Wave</a></li>
+					<li><a href="/royalty-free-vectors/message-vectors">Message</a></li>
+					<li><a href="/royalty-free-vectors/isolated-vectors">Isolated</a></li>
+					<li><a href="/royalty-free-vectors/university-vectors">University</a></li>
+					<li><a href="/royalty-free-vectors/friendly-vectors">Friendly</a></li>
+					<li><a href="/royalty-free-vectors/pupil-vectors">Pupil</a></li>
+				</ul>
+			</div>
+		</section>
+	</article>
+
+	<!-- Footer -->
+	<footer>
+		<div>
+		<div class="column c1">
+			<nav class="company">
+				<h4>VectorStock</h4>
+				<ul>
+					<li><a href="/" title="Home">Home</a></li>
+					<li class="sel"><a href="/free-vectors" title="Free Vectors">Free Vectors</a></li>
+					<li class="sel"><a href="/royalty-free-vectors" title="All Royalty-Free Vectors">All Vectors</a></li>
+				</ul>
+				<ul>
+					<li><a href="/what-is-a-vector" title="What is a Vector?">What is a Vector?</a></li>
+				</ul>
+				<ul>
+					<li class="sel"><a href="/faq" title="Frequently Asked Questions"><span class="long">Frequently Asked Questions</span><span class="short">FAQs</span></a></li>
+					<li><a href="/faq/members/terms-of-use" title="Terms &amp; Conditions">Terms &amp; Conditions</a></li>
+					<li class="sel"><a href="/contact" title="Contact Us">Contact Us</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="column c2">
+			<nav class="account">
+				<h4><span class="title">Account</span><span class="icon"></span></h4>
+					<ul>
+						<li><a href="/signup" title="Join Now">Join Now</a></li>
+						<li><a href="/pricing" title="Pricing">Pricing</a></li>
+						<li><a href="/?signup=1&contributor=1" title="Contributor Sign Up">Contributor Sign Up</a></li>
+						<li><a href="/faq/artists/why-sell-at-vectorstock" title="Contributor FAQ">Contributor FAQ</a></li>
+					</ul>
+			</nav>
+		</div>
+		<div class="column c3">
+			<nav class="social">
+				<h4>Social</h4>
+				<ul>
+					<li class="facebook sel"><a href="https://www.facebook.com/VectorStock" target="_blank" rel="noreferrer"><span class="title">Facebook</span><span class="icon"></span></a></li>
+					<li class="pinterest sel"><a href="https://pinterest.com/vectorstock/" target="_blank" rel="noreferrer"><span class="title">Pinterest</span><span class="icon"></span></a></li>
+					<li class="twitter sel"><a href="https://twitter.com/VectorStock" target="_blank" rel="noreferrer"><span class="title">Twitter</span><span class="icon"></span></a></li>
+				</ul>
+			</nav>
+			<div class="signoff">
+				<h5><a href="https://www.vectorstock.com/" title="VectorStock&reg;">VectorStock&reg;</a></h5>
+				<p>VectorStock and the VectorStock logo are registered trademarks of VectorStock Media.<br>
+				&copy; 2023. <span>All Rights Reserved.</span></p>
+			</div>
+		</div>
+		</div>
+	</footer>
+
+
+	<script type="text/javascript" nonce="wkKOgWf+O/7MeY0DPb3W24AVi6p+2n7cdwjGCwY8iAM=">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"02e09611df","applicationID":"156179534","transactionName":"ZV0ENRYCC0RYAkVbDVwXJRQXFwpaFhNeSwNeTB9MAhEAUhQXVFEWXUpJFw0GEg==","queueTime":0,"applicationTime":48,"atts":"SRoHQ14YGEo=","errorBeacon":"bam.nr-data.net","agent":""}</script>
+
+</body>
+</html>
