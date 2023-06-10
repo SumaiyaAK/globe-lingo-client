@@ -1,0 +1,93 @@
+[
+    {
+      "_id": "1",
+      "Language": "English",
+      "Number_of_Students": "20",
+      "Instructor_Name": "John Smith",
+      "Course_Price": "$200",
+      "Course_Hours": "30 hours",
+      "Course_Duration": "3 months",
+      "Course_Time": "Mondays and Wednesdays, 6:00 PM - 8:00 PM"
+    },
+    {
+      "_id": "2",
+      "Language": "Spanish",
+      "Number_of_Students": "15",
+      "Instructor_Name": "Maria Rodriguez",
+      "Course_Price": "$180",
+      "Course_Hours": "25 hours",
+      "Course_Duration": "2 months",
+      "Course_Time": "Tuesdays and Thursdays, 7:00 PM - 9:00 PM"
+    },
+    {
+      "_id": "3",
+      "Language": "French",
+      "Number_of_Students": "12",
+      "Instructor_Name": "Pierre Lefebvre",
+      "Course_Price": "$220",
+      "Course_Hours": "35 hours",
+      "Course_Duration": "3.5 months",
+      "Course_Time": "Mondays and Wednesdays, 5:30 PM - 7:30 PM"
+    },
+    {
+      "_id": "4",
+      "Language": "German",
+      "Number_of_Students": "18",
+      "Instructor_Name": "Hans Mueller",
+      "Course_Price": "$250",
+      "Course_Hours": "40 hours",
+      "Course_Duration": "4 months",
+      "Course_Time": "Tuesdays and Thursdays, 6:30 PM - 8:30 PM"
+    },
+    {
+      "_id": "5",
+      "Language": "Mandarin_Chinese",
+      "Number_of_Students": "25",
+      "Instructor_Name": "Li Wei",
+      "Course_Price": "$300",
+      "Course_Hours": "45 hours",
+      "Course_Duration": "5 months",
+      "Course_Time": "Saturdays, 10:00 AM - 1:00 PM"
+    },
+    {
+      "_id": "6",
+      "Language": "Italian",
+      "Number_of_Students": "10",
+      "Instructor_Name": "Marco Rossi",
+      "Course_Price": "$240",
+      "Course_Hours": "30 hours",
+      "Course_Duration": "3 months",
+      "Course_Time": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM"
+    },
+    {
+      "_id": "7",
+      "Language": "Japanese",
+      "Number_of_Students": "15",
+      "Instructor_Name": "Hiroshi Tanaka",
+      "Course_Price": "$280",
+      "Course_Hours": "40 hours",
+      "Course_Duration": "4 months",
+      "Course_Time": "Mondays and Wednesdays, 7:00 PM - 9:00 PM"
+    },
+    {
+      "_id": "8",
+      "Language": "Russian",
+      "Number_of_Students": "8",
+      "Instructor_Name": "Olga Petrov",
+      "Course_Price": "$200",
+      "Course_Hours": "30 hours",
+      "Course_Duration": "2.5 months",
+      "Course_Time": "Fridays, 5:00 PM - 8:00 PM"
+    },
+    {
+      "_id": "9",
+      "Language": "Arabic",
+      "Number_of_Students": "12",
+      "Instructor_Name": "Ahmed Khalid",
+      "Course_Price": "$300",
+      "Course_Hours": "50 hours",
+      "Course_Duration": "5 months",
+      "Course_Time": "Saturdays, 2:00 PM - 5:00 PM"
+    }
+  ]
+  
