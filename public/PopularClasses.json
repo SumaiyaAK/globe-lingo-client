@@ -7,7 +7,9 @@
       "Course_Price": "$200",
       "Course_Hours": "30 hours",
       "Course_Duration": "3 months",
-      "Course_Time": "Mondays and Wednesdays, 6:00 PM - 8:00 PM"
+      "Course_Time": "Mondays and Wednesdays, 6:00 PM - 8:00 PM",
+      "Category": "Popular",
+      "Image_URL": "https://images.pexels.com/photos/5212337/pexels-photo-5212337.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "_id": "2",
@@ -17,7 +19,9 @@
       "Course_Price": "$180",
       "Course_Hours": "25 hours",
       "Course_Duration": "2 months",
-      "Course_Time": "Tuesdays and Thursdays, 7:00 PM - 9:00 PM"
+      "Course_Time": "Tuesdays and Thursdays, 7:00 PM - 9:00 PM",
+      "Category": "Popular",
+      "Image_URL": "https://images.pexels.com/photos/8199166/pexels-photo-8199166.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "_id": "3",
@@ -27,7 +31,9 @@
       "Course_Price": "$220",
       "Course_Hours": "35 hours",
       "Course_Duration": "3.5 months",
-      "Course_Time": "Mondays and Wednesdays, 5:30 PM - 7:30 PM"
+      "Course_Time": "Mondays and Wednesdays, 5:30 PM - 7:30 PM",
+      "Category": "Regular",
+      "Image_URL": "https://images.pexels.com/photos/7092339/pexels-photo-7092339.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "_id": "4",
@@ -37,7 +43,9 @@
       "Course_Price": "$250",
       "Course_Hours": "40 hours",
       "Course_Duration": "4 months",
-      "Course_Time": "Tuesdays and Thursdays, 6:30 PM - 8:30 PM"
+      "Course_Time": "Tuesdays and Thursdays, 6:30 PM - 8:30 PM",
+      "Category": "Popular",
+      "Image_URL": "https://images.pexels.com/photos/5428142/pexels-photo-5428142.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "_id": "5",
@@ -47,7 +55,9 @@
       "Course_Price": "$300",
       "Course_Hours": "45 hours",
       "Course_Duration": "5 months",
-      "Course_Time": "Saturdays, 10:00 AM - 1:00 PM"
+      "Course_Time": "Saturdays, 10:00 AM - 1:00 PM",
+      "Category": "Regular",
+      "Image_URL": "https://images.pexels.com/photos/5676741/pexels-photo-5676741.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "_id": "6",
@@ -57,7 +67,9 @@
       "Course_Price": "$240",
       "Course_Hours": "30 hours",
       "Course_Duration": "3 months",
-      "Course_Time": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM"
+      "Course_Time": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
+      "Category": "Regular",
+      "Image_URL": "https://images.pexels.com/photos/7176295/pexels-photo-7176295.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "_id": "7",
@@ -67,7 +79,9 @@
       "Course_Price": "$280",
       "Course_Hours": "40 hours",
       "Course_Duration": "4 months",
-      "Course_Time": "Mondays and Wednesdays, 7:00 PM - 9:00 PM"
+      "Course_Time": "Mondays and Wednesdays, 7:00 PM - 9:00 PM",
+      "Category": "Popular",
+      "Image_URL": "https://images.pexels.com/photos/5756743/pexels-photo-5756743.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "_id": "8",
@@ -77,7 +91,9 @@
       "Course_Price": "$200",
       "Course_Hours": "30 hours",
       "Course_Duration": "2.5 months",
-      "Course_Time": "Fridays, 5:00 PM - 8:00 PM"
+      "Course_Time": "Fridays, 5:00 PM - 8:00 PM",
+      "Category": "Regular",
+      "Image_URL": "https://images.pexels.com/photos/8197551/pexels-photo-8197551.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "_id": "9",
@@ -87,7 +103,81 @@
       "Course_Price": "$300",
       "Course_Hours": "50 hours",
       "Course_Duration": "5 months",
-      "Course_Time": "Saturdays, 2:00 PM - 5:00 PM"
-    }
+      "Course_Time": "Saturdays, 2:00 PM - 5:00 PM",
+      "Category": "Professional",
+      "Image_URL": "https://images.pexels.com/photos/3471028/pexels-photo-3471028.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "_id": "10",
+        "Language": "Korean",
+        "Number_of_Students": "16",
+        "Instructor_Name": "Ji-hyun Kim",
+        "Course_Price": "$260",
+        "Course_Hours": "35 hours",
+        "Course_Duration": "3.5 months",
+        "Course_Time": "Tuesdays and Fridays, 6:00 PM - 8:00 PM",
+        "Category": "Popular",
+        "Image_URL": "https://images.pexels.com/photos/6684506/pexels-photo-6684506.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      },
+      {
+        "_id": "11",
+        "Language": "Portuguese",
+        "Number_of_Students": "14",
+        "Instructor_Name": "Carlos Silva",
+        "Course_Price": "$230",
+        "Course_Hours": "30 hours",
+        "Course_Duration": "3 months",
+        "Course_Time": "Mondays and Wednesdays, 7:30 PM - 9:30 PM",
+        "Category": "Professional",
+        "Image_URL": "https://www.pexels.com/photo/people-doing-a-group-study-7683704/"
+      },
+      {
+        "_id": "12",
+        "Language": "Hindi",
+        "Number_of_Students": "10",
+        "Instructor_Name": "Amit Patel",
+        "Course_Price": "$220",
+        "Course_Hours": "30 hours",
+        "Course_Duration": "3 months",
+        "Course_Time": "Fridays, 6:30 PM - 8:30 PM",
+        "Category": "Professional",
+        "Image_URL": "https://images.pexels.com/photos/8199143/pexels-photo-8199143.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      },
+      {
+        "_id": "13",
+        "Language": "Swedish",
+        "Number_of_Students": "8",
+        "Instructor_Name": "Elsa Andersson",
+        "Course_Price": "$240",
+        "Course_Hours": "35 hours",
+        "Course_Duration": "3.5 months",
+        "Course_Time": "Thursdays, 6:00 PM - 9:00 PM",
+        "Category": "Regular",
+        "Image_URL": "https://images.pexels.com/photos/5212338/pexels-photo-5212338.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      },
+      {
+        "_id": "14",
+        "Language": "Greek",
+        "Number_of_Students": "12",
+        "Instructor_Name": "Nikos Papadopoulos",
+        "Course_Price": "$200",
+        "Course_Hours": "25 hours",
+        "Course_Duration": "2 months",
+        "Course_Time": "Wednesdays and Fridays, 5:30 PM - 7:30 PM",
+        "Category": "Regular",
+        "Image_URL": "https://images.pexels.com/photos/5212336/pexels-photo-5212336.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      },
+      {
+        "_id": "15",
+        "Language": "Dutch",
+        "Number_of_Students": "10",
+        "Instructor_Name": "Jan De Vries",
+        "Course_Price": "$230",
+        "Course_Hours": "30 hours",
+        "Course_Duration": "3 months",
+        "Course_Time": "Mondays and Wednesdays, 6:30 PM - 8:30 PM",
+        "Category": "Popular",
+        "Image_URL": "https://images.pexels.com/photos/5428014/pexels-photo-5428014.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      }
   ]
   
