@@ -10,6 +10,7 @@
       "Course_Time": "Mondays and Wednesdays, 6:00 PM - 8:00 PM",
       "Category": "Popular",
       "Rank":"Top",
+      "Available_Seat":"10",
       "Image_URL": "https://images.pexels.com/photos/5212337/pexels-photo-5212337.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
@@ -23,6 +24,7 @@
       "Course_Time": "Tuesdays and Thursdays, 7:00 PM - 9:00 PM",
       "Category": "Popular",
       "Rank":"Top",
+      "Available_Seat":"08",
       "Image_URL": "https://images.pexels.com/photos/8199166/pexels-photo-8199166.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
@@ -36,6 +38,7 @@
       "Course_Time": "Mondays and Wednesdays, 5:30 PM - 7:30 PM",
       "Category": "Regular",
       "Rank":"Average",
+      "Available_Seat":"07",
       "Image_URL": "https://images.pexels.com/photos/7092339/pexels-photo-7092339.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
@@ -49,6 +52,7 @@
       "Course_Time": "Tuesdays and Thursdays, 6:30 PM - 8:30 PM",
       "Category": "Popular",
       "Rank":"Top",
+      "Available_Seat":"12",
       "Image_URL": "https://images.pexels.com/photos/5428142/pexels-photo-5428142.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
@@ -62,6 +66,7 @@
       "Course_Time": "Saturdays, 10:00 AM - 1:00 PM",
       "Category": "Regular",
       "Rank":"Top",
+      "Available_Seat":"05",
       "Image_URL": "https://images.pexels.com/photos/5676741/pexels-photo-5676741.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
@@ -75,6 +80,7 @@
       "Course_Time": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
       "Category": "Regular",
       "Rank":"Below_Average",
+      "Available_Seat":"11",
       "Image_URL": "https://images.pexels.com/photos/7176295/pexels-photo-7176295.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
@@ -88,6 +94,7 @@
       "Course_Time": "Mondays and Wednesdays, 7:00 PM - 9:00 PM",
       "Category": "Popular",
       "Rank":"Average",
+      "Available_Seat":"06",
       "Image_URL": "https://images.pexels.com/photos/5756743/pexels-photo-5756743.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
@@ -101,6 +108,7 @@
       "Course_Time": "Fridays, 5:00 PM - 8:00 PM",
       "Category": "Regular",
       "Rank":"Below_Average",
+      "Available_Seat":"15",
       "Image_URL": "https://images.pexels.com/photos/8197551/pexels-photo-8197551.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
@@ -114,6 +122,7 @@
       "Course_Time": "Saturdays, 2:00 PM - 5:00 PM",
       "Category": "Professional",
       "Rank":"Average",
+      "Available_Seat":"09",
       "Image_URL": "https://images.pexels.com/photos/3471028/pexels-photo-3471028.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
@@ -127,6 +136,7 @@
         "Course_Time": "Tuesdays and Fridays, 6:00 PM - 8:00 PM",
         "Category": "Popular",
         "Rank":"Top",
+        "Available_Seat":"09",
         "Image_URL": "https://images.pexels.com/photos/6684506/pexels-photo-6684506.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
       },
       {
@@ -140,6 +150,7 @@
         "Course_Time": "Mondays and Wednesdays, 7:30 PM - 9:30 PM",
         "Category": "Professional",
         "Rank":"Top",
+        "Available_Seat":"10",
         "Image_URL": "https://images.pexels.com/photos/5756649/pexels-photo-5756649.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
       },
       {
@@ -153,6 +164,7 @@
         "Course_Time": "Fridays, 6:30 PM - 8:30 PM",
         "Category": "Professional",
         "Rank":"Top",
+        "Available_Seat":"08",
         "Image_URL": "https://images.pexels.com/photos/8199143/pexels-photo-8199143.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
       },
       {
@@ -165,6 +177,7 @@
         "Course_Duration": "3.5 months",
         "Course_Time": "Thursdays, 6:00 PM - 9:00 PM",
         "Category": "Regular",
+        "Available_Seat":"07",
         "Image_URL": "https://images.pexels.com/photos/5212338/pexels-photo-5212338.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
       },
       {
@@ -177,6 +190,7 @@
         "Course_Duration": "2 months",
         "Course_Time": "Wednesdays and Fridays, 5:30 PM - 7:30 PM",
         "Category": "Regular",
+        "Available_Seat":"13",
         "Image_URL": "https://images.pexels.com/photos/5212336/pexels-photo-5212336.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
       },
       {
@@ -189,6 +203,7 @@
         "Course_Duration": "3 months",
         "Course_Time": "Mondays and Wednesdays, 6:30 PM - 8:30 PM",
         "Category": "Popular",
+        "Available_Seat":"05",
         "Image_URL": "https://images.pexels.com/photos/5428014/pexels-photo-5428014.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
       }
   ]

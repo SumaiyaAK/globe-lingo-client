@@ -5,7 +5,7 @@ import Courses from "../../Shared/Courses/Courses";
 const PopularClasses = () => {
     const [popularClasses, setPopularClasses] = useState([])
     useEffect(() => {
-        fetch('PopularClasses.json')
+        fetch('http://localhost:5000/AllClasses')
             .then(res => res.json())
             .then(data => {
                 const popularCourses = data.filter(course => course.Category === 'Popular')

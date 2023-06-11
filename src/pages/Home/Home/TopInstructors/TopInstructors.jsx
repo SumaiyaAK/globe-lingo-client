@@ -5,7 +5,7 @@ import Instructors from "../../../Shared/Instructors/Instructors";
 const TopInstructors = () => {
     const [popularClasses, setPopularClasses] = useState([])
     useEffect(() => {
-        fetch('PopularClasses.json')
+        fetch('http://localhost:5000/AllClasses')
             .then(res => res.json())
             .then(data => {
                 const TopInstructors = data.filter(instructor => instructor.Rank === 'Top')
