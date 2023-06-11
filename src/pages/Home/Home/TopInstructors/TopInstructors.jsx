@@ -1,32 +1,32 @@
 import { useEffect, useState } from "react";
-import Courses from "../../Shared/Courses/Courses";
 
+import Instructors from "../../../Shared/Instructors/Instructors";
 
-const PopularClasses = () => {
+const TopInstructors = () => {
     const [popularClasses, setPopularClasses] = useState([])
     useEffect(() => {
         fetch('PopularClasses.json')
             .then(res => res.json())
             .then(data => {
-                const popularCourses = data.filter(course => course.Category === 'Popular')
-                setPopularClasses(popularCourses)
+                const TopInstructors = data.filter(instructor => instructor.Rank === 'Top')
+                setPopularClasses(TopInstructors )
             })
     })
     return (
-        <section >
-            <h2 className="text-5xl text-center p-10">Popular Classes</h2>
+        <section className="mb-50">
+            <h2 className="text-5xl text-center p-10">Popular Instructors</h2>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
                 {
-                    popularClasses.map(course => <Courses
+                    popularClasses.map(course => <Instructors
                         key={course._id}
                         course={course}
                     >
 
-                    </Courses>)
+                    </Instructors>)
                 }
             </div>
         </section>
     );
 };
 
-export default PopularClasses;
+export default TopInstructors;
