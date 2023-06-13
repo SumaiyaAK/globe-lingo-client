@@ -13,7 +13,7 @@ const AllInstructors = () => {
     })
     return (
         <section className="mb-50">
-            <h2 className="text-5xl text-center p-10">Popular Instructors</h2>
+            <h2 className="text-5xl text-center p-10">All Instructors</h2>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
                 {
                     AllInstructors.map(allInstructor => <InstructorsDisplay

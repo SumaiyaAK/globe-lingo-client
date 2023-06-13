@@ -13,6 +13,8 @@ import Classes from './pages/AllClasses/AllClasses';
 import Login from './pages/Login/Login';
 import AuthProviders from './providers/AuthProviders';
 import Registration from './pages/Registration/Registration';
+import PrivateRoute from './PrivateRoute/PrivateRoute';
+import Private from './pages/Shared/Private/Private';
 
 
 const router = createBrowserRouter([
@@ -39,6 +41,10 @@ const router = createBrowserRouter([
       {
         path: 'registration',
         element: <Registration></Registration>
+      },
+      {
+        path:'private',
+        element:<PrivateRoute><Private></Private></PrivateRoute>
       }
     ]
   },

@@ -1,12 +1,19 @@
 import { useContext } from "react";
+
 import { AuthContext } from "../../providers/AuthProviders";
 import { Link } from "react-router-dom";
+import { useState } from "react";
+
 
 
 const Registration = () => {
+    const [error, setError] = useState('')
+    const [success, setSuccess] = useState('')
+
+    
     const { createUser } = useContext(AuthContext)
 
-
+   
 
 
     const handleRegister = event => {
@@ -23,10 +30,22 @@ const Registration = () => {
                 console.log(user)
             })
             .then(error => console.log(error))
+
+        if (!/(?=.*[A-Z].*[A-Z])/.test(password)) {
+            setError('Password must have two capital letters');
+            return;
+        }
+        else if (!/(?=.*[!@#$&*])/.test(password)) {
+            setError('Password must have special characters')
+        }
+        else if (password.length < 6) {
+            setError('Password must be at least 6 characters long')
+            return;
+        }
     }
     return (
         <div>
-            
+
             <div className="hero min-h-screen bg-base-200">
                 <div className="hero-content flex-col md:flex">
                     <div className="text-center lg:text-left">
@@ -52,29 +71,31 @@ const Registration = () => {
                                     <span className="label-text">Password</span>
                                 </label>
                                 <input type="password" name="password" placeholder="password" className="input input-bordered" />
-                                
+
                             </div>
                             <div className="form-control">
                                 <label className="label">
                                     <span className="label-text">Confirm Password</span>
                                 </label>
                                 <input type="password" name="confirmPassword" placeholder="Confirm Password" className="input input-bordered" />
-                                
+
                             </div>
                             <div className="form-control">
                                 <label className="label">
                                     <span className="label-text">Photo URL</span>
                                 </label>
                                 <input type="photo url" name="photoUrl" placeholder="Photo URL" className="input input-bordered" />
-                                
+
                             </div>
                             <div className="form-control mt-6">
-                                <button className="btn btn-primary">Submit</button>
+                                <button className="btn btn-success">Submit</button>
                             </div>
                         </div>
-                        <p className="p-4 text-center"><small>If you already have an account <Link to="/login">Login</Link></small></p>
+                        <p className=' text-red-600 text-center font-semibold'>{error}</p>
+                        <p className=' text-green-500 text-center font-semibold'>{success}</p>
+                        <p className="p-4 text-center font-semibold text-blue-500"><small >If you already have an account <Link to="/login"><a className="text-xl text-green-500">Login</a></Link></small></p>
                     </form>
-                    
+
                 </div>
             </div>
         </div>

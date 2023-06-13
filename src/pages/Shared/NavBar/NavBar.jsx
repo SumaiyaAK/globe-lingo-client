@@ -1,13 +1,29 @@
+import { useContext } from "react";
 import { Link } from "react-router-dom";
+import { AuthContext } from "../../../providers/AuthProviders";
 
 
 const NavBar = () => {
+    const { user, logOut } = useContext(AuthContext);
+    const handleLogOut = () => {
+        logOut()
+            .then(() => { })
+            .catch(error => console.log(error))
+    }
     const navOptions = <>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/instructors">Instructors</Link></li>
-        
-        <li><Link to="/classes">Classes</Link></li>
-        <li><Link to="/login">Login</Link></li>
+        <li><Link to="/" className=" text-green-500 font-semibold">Home</Link></li>
+        <li><Link to="/instructors" className=" text-green-500 font-semibold">Instructors</Link></li>
+
+        <li><Link to="/classes" className="text-green-500 font-semibold">Classes</Link></li>
+        <li><Link to="/private" className="text-green-500 font-semibold">Private</Link></li>
+        {/* <li><Link to="/login" className=" text-green-500 font-semibold">Login</Link></li> */}
+        {
+            user ? <>
+                <button onClick={handleLogOut} className="btn btn-outline btn-success btn-sm">Logout</button>
+            </> : <>
+                <li><Link to="/login" className=" text-green-500 font-semibold">Login</Link></li>
+            </>
+        }
 
     </>
     return (
@@ -22,15 +38,15 @@ const NavBar = () => {
                             {navOptions}
                         </ul>
                     </div>
-                    <Link><a className="btn btn-ghost normal-case text-xl">GlobeLingo</a></Link>
+                    <Link><a className="btn btn-ghost normal-case text-xl text-green-500">GlobeLingo</a></Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
                         {navOptions}
                     </ul>
                 </div>
-                <div className="navbar-end">
-                    <Link to="/registration"><a className="btn">Register</a></Link>
+                <div className="navbar-end ">
+                    <Link className="btn-success" to="/registration"><button className="btn btn-success">REGISTER</button></Link>
                 </div>
             </div>
         </>

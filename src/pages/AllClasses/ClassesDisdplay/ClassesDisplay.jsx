@@ -2,6 +2,9 @@
 
 const ClassesDisplay = ({allClasses}) => {
     const { Image_URL, Language, Number_of_Students, Instructor_Name, Course_Price, Course_Duration } = allClasses;
+    const handleAddToClass = allClasses => {
+          console.log(allClasses)
+    }
     return (
         <div className="">
         <div className="card  card-side bg-base-100 shadow-xl">
@@ -13,7 +16,7 @@ const ClassesDisplay = ({allClasses}) => {
                 <p>Course Price: {Course_Price}</p>
                 <p>Duration of Course: {Course_Duration}</p>
                 <div className="card-actions justify-end">
-                    <button className="btn btn-primary">View Details</button>
+                    <button onClick={() => handleAddToClass(allClasses)} className="btn btn-success">Add to Class</button>
                 </div>
             </div>
         </div>

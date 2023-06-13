@@ -1,12 +1,17 @@
 import { useContext } from "react";
 import { AuthContext } from "../../providers/AuthProviders";
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
+import { useState } from "react";
 
 
 const Login = () => {
+    const [error, setError] = useState('')
+    const [success, setSuccess] = useState('')
     const { signIn } = useContext(AuthContext)
+    const navigate = useNavigate();
+    const location = useLocation();
 
-
+    const from = location.state?.from?.pathname || "/";
 
 
     const handleLogin = event => {
@@ -18,12 +23,25 @@ const Login = () => {
         signIn(email, password)
             .then(result => {
                 const user = result.user;
-                console.log(user)
+                console.log(user);
+                navigate(from, { replace: true });
             })
+
+        if (!/(?=.*[A-Z].*[A-Z])/.test(password)) {
+            setError('Please add at least two uppercase');
+            return;
+        }
+        else if (!/(?=.*[!@#$&*])/.test(password)) {
+            setError('Please add a special character')
+        }
+        else if (password.length < 6) {
+            setError('Please add at least 6 characters in your password')
+            return;
+        }
     }
     return (
         <div>
-            
+
             <div className="hero min-h-screen bg-base-200">
                 <div className="hero-content flex-col md:flex">
                     <div className="text-center lg:text-left">
@@ -48,12 +66,14 @@ const Login = () => {
                                 </label>
                             </div>
                             <div className="form-control mt-6">
-                                <button className="btn btn-primary">Login</button>
+                                <button className="btn btn-success">Login</button>
                             </div>
                         </div>
-                        <p className="p-4 text-center"><small>If you do not have an account <Link to="/registration">Create an account</Link></small></p>
+                        <p className='text-danger'>{error}</p>
+                        <p className='text-success'>{success}</p>
+                        <p className="p-4 text-center text-blue-500 font-semibold"><small>If you do not have an account <Link to="/registration"><a className="text-xl text-green-500">Register</a></Link></small></p>
                     </form>
-                    
+
                 </div>
             </div>
         </div>
