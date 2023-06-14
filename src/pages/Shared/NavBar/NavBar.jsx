@@ -20,7 +20,7 @@ const NavBar = () => {
 
         <li><Link to="/classes" className="text-green-500 font-semibold">Classes</Link></li>
         <li><Link to="/private" className="text-green-500 font-semibold">Private</Link></li>
-        <li><Link to="/" className="text-green-500 font-semibold text-center">
+        <li><Link to="/dashboard/myclass" className="text-green-500 font-semibold text-center">
             
                 Inbox
                 <div className="badge badge-secondary">+{classes?.length || 0}</div>

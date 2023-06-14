@@ -13,7 +13,7 @@ const ClassesDisplay = ({allClasses}) => {
     const handleAddToClass = allClasses => {
           console.log(allClasses);
           if(user && user.email){
-            const addedClass = {classId: _id, Image_URL, Language, Course_Price, email: user.email }
+            const addedClass = {classId: _id, Image_URL, Language, Course_Price, Instructor_Name, email: user.email }
             fetch('http://localhost:5000/class', {
                 method: 'POST',
                 headers: {

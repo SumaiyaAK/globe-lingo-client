@@ -60,7 +60,7 @@ const router = createBrowserRouter([
     element: <DashBoard></DashBoard>,
     children: [
       {
-        path: '/MyClass',
+        path: 'myclass',
         element: <MyClass></MyClass>
       }
     ]
