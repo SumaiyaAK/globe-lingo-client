@@ -1,7 +1,7 @@
 import { useContext } from "react";
 
 import { AuthContext } from "../../providers/AuthProviders";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useState } from "react";
 
 
@@ -10,10 +10,10 @@ const Registration = () => {
     const [error, setError] = useState('')
     const [success, setSuccess] = useState('')
 
-    
+    const navigate = useNavigate();
     const { createUser } = useContext(AuthContext)
 
-   
+    const from = location.state?.from?.pathname || "/";
 
 
     const handleRegister = event => {
@@ -28,6 +28,21 @@ const Registration = () => {
             .then(result => {
                 const user = result.user;
                 console.log(user)
+                const userData = { name: user.displayName, email: user.email}
+                fetch('http://localhost:5000/users', {
+                    method: 'POST',
+                    headers: {
+                        'content-type': 'application/json'
+                    },
+                    body: JSON.stringify(userData)
+                })
+                .then(res => res.json())
+                .then(data => {
+                    if (data.insertedId) {
+
+                        navigate(from, { replace: true });
+                    }
+                })
             })
             .then(error => console.log(error))
 
