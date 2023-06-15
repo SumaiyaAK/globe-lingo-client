@@ -31,6 +31,8 @@ const Registration = () => {
             })
             .then(error => console.log(error))
 
+            
+
         if (!/(?=.*[A-Z].*[A-Z])/.test(password)) {
             setError('Password must have two capital letters');
             return;

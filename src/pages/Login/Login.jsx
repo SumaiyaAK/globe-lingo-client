@@ -2,6 +2,7 @@ import { useContext } from "react";
 import { AuthContext } from "../../providers/AuthProviders";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { useState } from "react";
+import GoogleLogin from "../Shared/GoogleLogin/GoogleLogin";
 
 
 const Login = () => {
@@ -69,9 +70,10 @@ const Login = () => {
                                 <button className="btn btn-success">Login</button>
                             </div>
                         </div>
-                        <p className='text-danger'>{error}</p>
-                        <p className='text-success'>{success}</p>
+                        <p className='text-danger text-center'>{error}</p>
+                        <p className='text-success text-center'>{success}</p>
                         <p className="p-4 text-center text-blue-500 font-semibold"><small>If you do not have an account <Link to="/registration"><a className="text-xl text-green-500">Register</a></Link></small></p>
+                        <GoogleLogin></GoogleLogin>
                     </form>
 
                 </div>
