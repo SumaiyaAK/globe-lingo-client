@@ -5,7 +5,7 @@ const InstructorsDisplay = ({allInstructor}) => {
     const { Image_URL, Language, Number_of_Students, Instructor_Name, Course_Price, Course_Duration } = allInstructor;
     
     
-// http://localhost:5000/class?email=ahmet.hasan@gmail.com
+// https://globe-lingo-server.vercel.app/class?email=ahmet.hasan@gmail.com
     return (
         <div className="">
             <div className="card  card-side bg-base-100 shadow-xl">

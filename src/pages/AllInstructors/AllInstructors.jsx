@@ -6,7 +6,7 @@ import InstructorsDisplay from "./InstructorsDisplay/InstructorsDisplay";
 const AllInstructors = () => {
     const [AllInstructors, setAllInstructors] = useState([])
     useEffect(() => {
-        fetch('http://localhost:5000/AllClasses')
+        fetch('https://globe-lingo-server.vercel.app/AllClasses')
             .then(res => res.json())
             .then(data => setAllInstructors(data)
             )

@@ -6,7 +6,7 @@ import ClassesDisplay from "./ClassesDisdplay/ClassesDisplay";
 const AllClasses = () => {
     const [AllClasses, setAllClasses] = useState([])
     useEffect(() => {
-        fetch('http://localhost:5000/AllClasses')
+        fetch('https://globe-lingo-server.vercel.app/AllClasses')
             .then(res => res.json())
             .then(data => setAllClasses(data)
             )

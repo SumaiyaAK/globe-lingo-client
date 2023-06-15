@@ -5,7 +5,7 @@ import Courses from "../../Shared/Courses/Courses";
 const PopularClasses = () => {
     const [popularClasses, setPopularClasses] = useState([])
     useEffect(() => {
-        fetch('http://localhost:5000/AllClasses')
+        fetch('https://globe-lingo-server.vercel.app/AllClasses')
             .then(res => res.json())
             .then(data => {
                 const popularCourses = data.filter(course => course.Category === 'Popular')

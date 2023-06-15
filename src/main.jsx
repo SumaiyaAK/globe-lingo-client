@@ -18,6 +18,8 @@ import Private from './pages/Shared/Private/Private';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import DashBoard from './MainLayout/DashBoard';
 import MyClass from './pages/DashBoard/MyClass/MyClass';
+import AllClasses from './pages/AllClasses/AllClasses';
+import AllUsers from './pages/DashBoard/AllUsers/AllUsers';
 
 
 const queryClient = new QueryClient()
@@ -62,6 +64,10 @@ const router = createBrowserRouter([
       {
         path: 'myclass',
         element: <MyClass></MyClass>
+      },
+      {
+        path: 'allusers',
+        element: <AllUsers></AllUsers>
       }
     ]
   }

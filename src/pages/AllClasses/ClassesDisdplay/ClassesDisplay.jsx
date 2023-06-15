@@ -14,7 +14,7 @@ const ClassesDisplay = ({allClasses}) => {
           console.log(allClasses);
           if(user && user.email){
             const addedClass = {classId: _id, Image_URL, Language, Course_Price, Instructor_Name, email: user.email }
-            fetch('http://localhost:5000/class', {
+            fetch('https://globe-lingo-server.vercel.app/class', {
                 method: 'POST',
                 headers: {
                     'content-type': 'application/json'
